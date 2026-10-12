@@ -362,6 +362,6 @@ VIVER is released under the [MIT License](LICENSE). It bundles [pylabview](https
 
 VIVER is an independent project and is not affiliated with, endorsed by, or sponsored by National Instruments (NI) or Emerson. LabVIEW and NI are trademarks of National Instruments Corporation. Other product names are used only to describe compatibility.
 
-**Built with Claude.** VIVER was designed and written with [Claude](https://claude.ai), Anthropic's AI assistant, through an iterative conversation: the requirements, testing on real LabVIEW projects and feedback came from the author; the code, documentation and logo were produced with Claude.
+**Built with the assistance of Claude.** VIVER was designed and developed with the assistance of Claude.
 
 The screenshots and the example CHANGELOG show VIs from the open-source LabVIEW Icon Editor, JKI State Machine and OpenG projects, used for illustration only; they remain the property of their respective authors and are covered by their own licenses.
