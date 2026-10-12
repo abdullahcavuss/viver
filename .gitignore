@@ -1,0 +1,15 @@
+# VIVER data: repositories, backups, cache, primitive names read from your LabVIEW installation
+data/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

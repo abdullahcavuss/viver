@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="7386" height="2076" viewBox="0 0 7386 2076" font-family="Segoe UI, Arial, DejaVu Sans, Liberation Sans, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozYjhkOTkxZi04ZGEzLTQ4MTctYmRmNC0zZGFhZDE1MDljMzAAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDQ96EdcSTwK1MJ3E/wpkpQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNjMyZGQ5OC1lNDEwLTQ5NzQtOGVlZi04YTM3NzI4ZjA5ODVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNouvxPjFiUxBZxvxM2bCh8bQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggnc+8mdoOAzfMsmOPStJ6fGofLvx4q/ArPOkMP6LMwhmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHsT1iKOykIVK9nuy8assq0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJTj8Ks24Jbsd8gIpid2U4S5LUUvsFh5h4zgxpGXsfl9ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjNiOGQ5OTFmLThkYTMtNDgxNy1iZGY0LTNkYWFkMTUwOWMzMC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjNlZWMwYzBiLTdiYTUtNDRkZC1hZmIwLTExZmY0NGMyYzIxZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCdz7yZ2g4DN8yyY49K0np8ah8u/Hir8Cs86Qw/oszCGaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggIMYJhp6zIieKnMhGQ658NfHkcNkxcOxhAH3QY4yu7cyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggRiCktaxrXyvzeLbtwNa08ZSG7joae2eNeg18gKrBplx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQN/Dt0N6+Ubxf1IckloQkloJRgsAZi522P+fedjAW3P/nYEof1fWDiaNB9kmP+EXtXvvXvbcUr/d5OAC9suLUEU=</c2pa:manifest></metadata>
+<defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#f0f2f5" stroke-width="1"/></pattern></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g transform="translate(0,0)">
+<rect x="0" y="0" width="480" height="102.3" rx="6" fill="#57606a"/>
+<text x="39.8" y="79.5" font-size="56.8" font-weight="bold" fill="#fff">Previous version (379e404)</text>
+<g transform="translate(0,125)">
+<rect width="480" height="160" fill="url(#g)" stroke="#d0d7de" stroke-width="1"/>
+<text x="240" y="80" font-size="18" fill="#8c959f" text-anchor="middle">(not in this version)</text>
+</g></g>
+<g transform="translate(0,321)">
+<rect x="0" y="0" width="7386" height="102.3" rx="6" fill="#1a7f37"/>
+<text x="39.8" y="79.5" font-size="56.8" font-weight="bold" fill="#fff">New version (fdbd562)</text>
+<g transform="translate(0,125)">
+<rect width="7386" height="1630" fill="url(#g)" stroke="#d0d7de" stroke-width="1"/>
+<svg width="7386" height="1630" overflow="hidden">
+<rect x="186" y="316" width="6936" height="1252" fill="rgb(143,148,155)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="188" y="318" width="6924" height="1240" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="6656" y="404" width="416" height="628" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="6668" y="416" width="392" height="604" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="340" y="416" width="6108" height="1060" fill="rgb(194,167,116)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="352" y="436" width="2020" height="1020" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="358" y="440" width="30" height="22" fill="rgb(255,244,224)" stroke="rgb(217,119,6)" stroke-width="1"/>
+<text x="367.4" y="456.5" font-size="16" font-weight="bold" fill="rgb(180,83,9)">0</text>
+<rect x="2384" y="436" width="2020" height="1020" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="2390" y="440" width="30" height="22" fill="rgb(255,244,224)" stroke="rgb(217,119,6)" stroke-width="1"/>
+<text x="2399.4" y="456.5" font-size="16" font-weight="bold" fill="rgb(180,83,9)">1</text>
+<rect x="4416" y="436" width="2020" height="1020" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="4422" y="440" width="30" height="22" fill="rgb(255,244,224)" stroke="rgb(217,119,6)" stroke-width="1"/>
+<text x="4431.4" y="456.5" font-size="16" font-weight="bold" fill="rgb(180,83,9)">2</text>
+<rect x="2674" y="1200" width="464" height="224" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2686" y="1212" width="440" height="200" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="2674" y="740" width="464" height="436" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2686" y="752" width="440" height="412" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="2674" y="456" width="464" height="224" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2686" y="468" width="440" height="200" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="5656" y="572" width="720" height="388" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5668" y="584" width="696" height="364" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="5710" y="608" width="616" height="328" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5722" y="620" width="592" height="304" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="5770" y="684" width="204" height="232" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5782" y="696" width="180" height="208" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="5084" y="592" width="548" height="368" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5096" y="604" width="524" height="344" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="4560" y="592" width="480" height="348" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="4572" y="604" width="456" height="324" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="456" y="84" width="268" height="184" fill="rgb(143,148,155)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="458" y="86" width="256" height="172" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<polyline points="7186,347 7199,347 7199,393 7212,393" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7239,411 7251,411 7251,476 7262,476" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7106,496 7122,496 7122,405 7138,405" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7106,496 7159,496 7159,430 7212,430" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7159,405 7185.5,405 7185.5,412 7212,412" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="152,117 170,117 170,176 188,176" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="195,555 528.5,555 528.5,127 862,127" fill="none" stroke="rgb(59,59,59)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788,117 809,117 809,127 830,127" fill="none" stroke="rgb(224,64,176)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="788,117 809,117 809,127 830,127" fill="none" stroke="rgb(255,255,255)" stroke-width="2"/>
+<polyline points="172,496 202,496" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="715,137 737,137 737,117 759,117" fill="none" stroke="rgb(224,64,176)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="715,137 737,137 737,117 759,117" fill="none" stroke="rgb(255,255,255)" stroke-width="2"/>
+<polyline points="412,157 442,157 442,176 472,176" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="210,176 233,176 233,77 256,77" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="210,176 296.5,176 296.5,157 383,157" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="397,89 434.5,89 434.5,100 472,100" fill="none" stroke="rgb(255,127,0)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="339,89 376,89" fill="none" stroke="rgb(255,127,0)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="288,77 318,78" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="318,99 334,99 334,149 350,149" fill="none" stroke="rgb(255,127,0)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="124,212 172,212" fill="none" stroke="rgb(255,127,0)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6658,1219 6713.5,1219 6713.5,1023 6769,1023" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="789,1505 3839,1505 3839,1023 6889,1023" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="230,1512 245,1512 245,983 260,983" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="281,973 524.5,973 524.5,1505 768,1505" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="202,332 231,332 231,962 260,962" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7063,497 7106,496" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="202,496 3433.5,496 3433.5,467 6665,467" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6439,681 6456.5,681 6456.5,753 6474,753" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6439,681 6665,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6495,753 6579.5,753 6579.5,764 6664,764" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="195,555 227,555 227,535 259,535" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="288,535 318.5,535 318.5,555 349,555" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6769,1023 6828.5,1023 6828.5,804 6888,804" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6888,825 6900,825 6900,1023 6889,1023" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7012,594 7024,594 7024,665 7022,665" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6920,804 6932,804 6932,569 6942,569" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6920,804 6955,804 6955,680 6990,680" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6916,519 6953,519 6953,648 6990,648" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6916,519 6964,519 6964,557 7012,557" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6930,675 6960,675 6960,664 6990,664" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="7039,575 7051,575 7051,497 7063,497" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6963,569 6987.5,569 6987.5,576 7012,576" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6665,681 6774.5,681 6774.5,526 6884,526" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6835,507 6859.5,507 6859.5,510 6884,510" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6665,467 6698.5,467 6698.5,501 6732,501" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6665,467 6699.5,467 6699.5,564 6734,564" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6665,467 6736.5,467 6736.5,489 6808,489" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6766,573 6787,573 6787,526 6808,526" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6734,580 6746,580 6746,623 6746,623" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6753,501 6780.5,501 6780.5,508 6808,508" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="486,810 515,810 515,812 544,812" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="486,810 515,810 515,732 544,732" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="486,810 516,810 516,652 546,652" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="486,810 516,810 516,580 546,580" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2506,875 2555,875 2555,832 2604,832" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2506,875 2557,875 2557,548 2608,548" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2506,875 2557,875 2557,1292 2608,1292" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2381,555 2427.5,555 2427.5,875 2474,875" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2381,555 2532,555 2532,531 2683,531" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2381,555 2532,555 2532,815 2683,815" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2381,555 2532,555 2532,1275 2683,1275" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2598,1325 2610,1325 2610,1313 2608,1313" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2629,1303 2655.5,1303 2655.5,1314 2682,1314" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2625,843 2653.5,843 2653.5,854 2682,854" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2594,865 2606,865 2606,853 2604,853" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2629,559 2655.5,559 2655.5,570 2682,570" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2598,581 2610,581 2610,569 2608,569" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2683,1275 2782,1275" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,1349 2766,1349 2766,1317 2782,1317" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,1305 2766,1305 2766,1296 2782,1296" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2814,1296 2831,1296 2831,1304 2848,1304" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2848,1325 2860,1325 2860,1379 2870,1379" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2869,1315 2939,1315 2939,1327 3009,1327" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2816,973 2828,973 2828,931 2836,931" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2886,867 2898,867 2898,913 2908,913" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2928,1008 2972.5,1008 2972.5,1025 3017,1025" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2907,857 2973.5,857 2973.5,869 3040,869" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2857,921 2880.5,921 2880.5,1000 2904,1000" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2814,836 2826,836 2826,910 2836,910" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2814,836 2850,836 2850,846 2886,846" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2863,1069 2883.5,1069 2883.5,1016 2904,1016" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2810,1028 2826,1028 2826,1058 2842,1058" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2842,1079 2854,1079 2854,1133 2864,1133" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2683,815 2730.5,815 2730.5,1007 2778,1007" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2683,815 2782,815" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2746,1037 2762,1037 2762,1028 2778,1028" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2746,1081 2762,1081 2762,1049 2778,1049" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,889 2766,889 2766,857 2782,857" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,845 2766,845 2766,836 2782,836" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2683,531 2782,531" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,605 2766,605 2766,573 2782,573" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2750,561 2766,561 2766,552 2782,552" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2814,552 2831,552 2831,560 2848,560" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2848,581 2860,581 2860,635 2870,635" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2869,571 2938.5,571 2938.5,583 3008,583" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5920,1137 5962.5,1137 5962.5,951 6005,951" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5275,951 5318.5,951 5318.5,1145 5362,1145" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4674,1299 4686.5,1299 4686.5,931 4699,931" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4674,1299 5379.5,1299 5379.5,951 6085,951" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4413,555 4544,555 4544,601 4675,601" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4413,555 4850,555 4850,601 5287,601" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4413,555 5178,555 5178,581 5943,581" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6367,681 6439,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5544,1129 5648.5,1129 5648.5,951 5753,951" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5549,1073 5621,1073 5621,951 5693,951" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5585,1009 5624.5,1009 5624.5,814 5664,814" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5623,681 5665,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5031,681 5093,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5060,1031 5076,1031 5076,814 5092,814" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4922,1005 4979,1005 4979,1022 5036,1022" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4957,1069 4996.5,1069 4996.5,1038 5036,1038" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4534,664 4569,665" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4528,1001 4548,1001 4548,814 4568,814" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6085,951 6097,951 6097,927 6085,927" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5943,581 5955,581 5955,617 5943,617" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6317,681 6367,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5753,951 5765,951 5765,927 5753,927" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5665,681 5719,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5693,951 5705.5,951 5705.5,862 5718,862" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6085,927 6154.5,927 6154.5,880 6224,880" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5943,617 6000.5,617 6000.5,763 6058,763" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6290,713 6303.5,713 6303.5,681 6317,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5965,705 6258,704" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6256,880 6268,880 6268,720 6258,720" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6026,793 6042,793 6042,784 6058,784" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6090,784 6142,784" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6026,837 6042,837 6042,805 6058,805" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6026,837 6148,836" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="6148,836 6186,836 6186,901 6224,901" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5719,681 5749,681 5749,705 5779,705" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5753,927 5765.5,927 5765.5,892 5778,892" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5939,769 5952,769 5952,705 5965,705" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5779,705 5807.5,705 5807.5,763 5836,763" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5779,705 5808.5,705 5808.5,826 5838,826" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5779,705 5845.5,705 5845.5,751 5912,751" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5857,763 5884.5,763 5884.5,770 5912,770" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5838,842 5850,842 5850,885 5850,885" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5870,835 5891,835 5891,788 5912,788" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5275,951 5397.5,951 5397.5,876 5520,876" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5287,601 5320.5,601 5320.5,759 5354,759" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5093,681 5120.5,681 5120.5,779 5148,779" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5093,681 5121.5,681 5121.5,842 5150,842" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5093,681 5158.5,681 5158.5,767 5224,767" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5251,785 5402.5,785 5402.5,700 5554,700" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5586,709 5604.5,709 5604.5,681 5623,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5552,876 5564,876 5564,716 5554,716" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5322,789 5338,789 5338,780 5354,780" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5386,780 5438,780" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5322,833 5338,833 5338,801 5354,801" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5322,833 5444,832" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5444,832 5482,832 5482,897 5520,897" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5182,851 5203,851 5203,804 5224,804" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5150,858 5162,858 5162,901 5162,901" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="5169,779 5196.5,779 5196.5,786 5224,786" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4699,931 4769.5,931 4769.5,860 4840,860" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4674,743 4686,743 4686,601 4675,601" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4569,665 4942,664" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4974,681 5031,681" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4872,860 4907,860 4907,680 4942,680" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4942,696 4968,696 4968,791 4994,791" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4764,816 4802,816 4802,881 4840,881" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4642,817 4658,817 4658,785 4674,785" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4642,817 4764,816" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4706,764 4758,764" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="4642,773 4658,773 4658,764 4674,764" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="608,137 715,137" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="608,158 658,158 658,176 708,176" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="544,179 576,179" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="472,176 524,176 524,137 576,137" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="7198" y="384" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="7209.1" y="420.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Select</text>
+<rect x="7128" y="384" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="7138.6" y="413.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="7131" y="427" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="814" y="104" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="818.7" y="133.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Reverse</text>
+<text x="816.4" y="147" font-size="12" font-weight="bold" fill="rgb(28,33,40)">1D Array</text>
+<rect x="7262" y="460" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="7276.2" y="480.8" font-size="14" font-weight="bold" fill="rgb(224,64,176)">STRI</text>
+<text x="7262" y="453.6" font-size="17" fill="rgb(28,33,40)">String</text>
+<rect x="758" y="1484" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="764.4" y="1520.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Decre…</text>
+<rect x="250" y="952" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="252.8" y="988.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subtract</text>
+<rect x="6974" y="640" width="64" height="50" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="6976.7" y="669.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="6998" y="548" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="7009.1" y="584.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Select</text>
+<rect x="6932" y="548" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6942.6" y="577.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="6935" y="591" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="6872" y="772" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6890" y="801.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Pick</text>
+<text x="6889.8" y="815" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Line</text>
+<rect x="6868" y="502" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="6870.7" y="523.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="6794" y="480" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6805.1" y="516.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Select</text>
+<rect x="6722" y="480" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6732.6" y="509.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="6725" y="523" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="6718" y="556" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="6720.7" y="577.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="6712" y="604" width="34" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="6720" y="628.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="6896" y="656" width="34" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="6904" y="680.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="6464" y="732" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6474.6" y="761.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="6467" y="775" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="244" y="522" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="248.7" y="551.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Reverse</text>
+<text x="255.2" y="565" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<rect x="544" y="796" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<text x="554.3" y="816.8" font-size="14" font-weight="bold" fill="rgb(0,138,46)">BOOL</text>
+<text x="544" y="789.6" font-size="17" fill="rgb(28,33,40)">hasHundredsPlace</text>
+<rect x="544" y="716" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<text x="554.3" y="736.8" font-size="14" font-weight="bold" fill="rgb(0,138,46)">BOOL</text>
+<text x="544" y="709.6" font-size="17" fill="rgb(28,33,40)">hasTensPlace</text>
+<rect x="546" y="564" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<text x="556.3" y="584.8" font-size="14" font-weight="bold" fill="rgb(0,138,46)">BOOL</text>
+<text x="546" y="557.6" font-size="17" fill="rgb(28,33,40)">isTeen</text>
+<rect x="546" y="636" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<text x="556.3" y="656.8" font-size="14" font-weight="bold" fill="rgb(0,138,46)">BOOL</text>
+<text x="546" y="629.6" font-size="17" fill="rgb(28,33,40)">hasOnesPlace</text>
+<rect x="454" y="796" width="32" height="28" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<text x="462" y="815.5" font-size="16" font-weight="bold" fill="rgb(0,138,46)">F…</text>
+<rect x="2598" y="1282" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2604.1" y="1304.3" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Greater</text>
+<text x="2621.9" y="1318.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Or</text>
+<text x="2607.7" y="1331.9" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2912" y="1308" width="194" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<rect x="2915" y="1312" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="2921.4" y="1332.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="2944" y="1332.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasOnesPlace</text>
+<rect x="2766" y="1264" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2777.2" y="1293.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="2774.6" y="1307" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="2838" y="1294" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2858" y="1323.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Not</text>
+<text x="2847.7" y="1337" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2844" y="1360" width="26" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="2852" y="1384.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">0</text>
+<rect x="2728" y="1286" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="1310.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">0</text>
+<rect x="2728" y="1330" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="1354.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">7</text>
+<rect x="2946" y="850" width="188" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<rect x="2949" y="854" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="2955.4" y="874.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="2978" y="874.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasTensPlace</text>
+<rect x="2960" y="1006" width="114" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<rect x="2963" y="1010" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="2969.4" y="1030.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="2992" y="1030.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">isTeen</text>
+<rect x="2826" y="900" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2835.7" y="936.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2832" y="1048" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2852" y="1077.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Not</text>
+<text x="2841.7" y="1091" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2762" y="996" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2773.2" y="1025.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="2770.6" y="1039" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="2892" y="992" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2910.8" y="1028.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">And</text>
+<rect x="2766" y="804" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2777.2" y="833.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="2774.6" y="847" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="2876" y="836" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2896" y="865.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Not</text>
+<text x="2885.7" y="879" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2790" y="954" width="26" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="2798" y="978.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">1</text>
+<rect x="2728" y="826" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="850.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="2728" y="870" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="894.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="2724" y="1062" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2732" y="1086.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="2724" y="1018" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2732" y="1042.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">0</text>
+<rect x="2838" y="1114" width="26" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="2846" y="1138.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">0</text>
+<rect x="2882" y="894" width="26" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="2890" y="918.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">0</text>
+<rect x="2594" y="822" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2600.1" y="844.3" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Greater</text>
+<text x="2617.9" y="858.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Or</text>
+<text x="2603.7" y="871.9" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2886" y="564" width="244" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="2"/>
+<rect x="2889" y="568" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="2895.4" y="588.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="2918" y="588.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasHundredsPlace</text>
+<rect x="2766" y="520" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2777.2" y="549.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="2774.6" y="563" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="2838" y="550" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2858" y="579.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Not</text>
+<text x="2847.7" y="593" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2844" y="616" width="26" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="2852" y="640.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">0</text>
+<rect x="2728" y="542" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="566.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">2</text>
+<rect x="2728" y="586" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2736" y="610.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="2598" y="538" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2607.7" y="574.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Equal?</text>
+<rect x="2458" y="858" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="2469.2" y="887.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="2466.4" y="901" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Length</text>
+<rect x="2576" y="562" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2584" y="586.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">9</text>
+<rect x="2572" y="846" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2580" y="870.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">2</text>
+<rect x="2576" y="1306" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="2584" y="1330.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="4406" y="982" width="244" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="4624" y="986" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="4630.4" y="1006.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="4414" y="1006.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasHundredsPlace</text>
+<rect x="4828" y="986" width="188" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="4990" y="990" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="4996.4" y="1010.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="4836" y="1010.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasTensPlace</text>
+<rect x="4900" y="1050" width="114" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="4988" y="1054" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="4994.4" y="1074.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="4908" y="1074.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">isTeen</text>
+<rect x="5528" y="990" width="114" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="5616" y="994" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="5622.4" y="1014.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="5536" y="1014.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">isTeen</text>
+<rect x="5452" y="1054" width="194" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="5620" y="1058" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="5626.4" y="1078.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="5460" y="1078.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasOnesPlace</text>
+<rect x="5450" y="1110" width="188" height="38" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="4"/>
+<rect x="5612" y="1114" width="23" height="30" fill="rgb(47,111,235)"/>
+<text x="5618.4" y="1134.5" font-size="16" font-weight="bold" fill="rgb(255,255,255)">L</text>
+<text x="5458" y="1134.9" font-size="17" font-weight="bold" fill="rgb(28,33,40)">hasTensPlace</text>
+<rect x="6242" y="696" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="6244.7" y="717.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="6208" y="848" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6226" y="877.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Pick</text>
+<text x="6225.8" y="891" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Line</text>
+<rect x="6042" y="752" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="6053.2" y="781.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="6050.6" y="795" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="6132" y="772" width="64" height="74" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="6147.8" y="800" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Scan</text>
+<text x="6146.9" y="813.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">From</text>
+<text x="6143.2" y="826.7" font-size="12" font-weight="bold" fill="rgb(59,65,72)">String</text>
+<rect x="5822" y="818" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="5824.7" y="839.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="5826" y="742" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5836.6" y="771.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="5829" y="785" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="5898" y="742" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5909.1" y="778.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Select</text>
+<rect x="5816" y="866" width="34" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="5824" y="890.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="6004" y="818" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="6012" y="842.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="6004" y="774" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="6012" y="798.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">0</text>
+<rect x="5538" y="692" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="5540.7" y="713.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="5504" y="844" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5522" y="873.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Pick</text>
+<text x="5521.8" y="887" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Line</text>
+<rect x="5338" y="748" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5349.2" y="777.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="5346.6" y="791" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="5428" y="768" width="64" height="74" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="5443.8" y="796" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Scan</text>
+<text x="5442.9" y="809.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">From</text>
+<text x="5439.2" y="822.7" font-size="12" font-weight="bold" fill="rgb(59,65,72)">String</text>
+<rect x="5210" y="758" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5221.1" y="794.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Select</text>
+<rect x="5138" y="758" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="5148.6" y="787.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Empty</text>
+<text x="5141" y="801" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String/…</text>
+<rect x="5134" y="834" width="64" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="5136.7" y="855.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="5128" y="882" width="34" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="5136" y="906.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="5300" y="814" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="5308" y="838.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">5</text>
+<rect x="5300" y="770" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="5308" y="794.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="5024" y="1014" width="48" height="34" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="5027.2" y="1028.7" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Com…</text>
+<text x="5029.5" y="1042" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Arit…</text>
+<rect x="4926" y="656" width="64" height="50" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="4928.7" y="685.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Concat…</text>
+<rect x="4748" y="752" width="64" height="74" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="4763.8" y="780" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Scan</text>
+<text x="4762.9" y="793.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">From</text>
+<text x="4759.2" y="806.7" font-size="12" font-weight="bold" fill="rgb(59,65,72)">String</text>
+<rect x="4658" y="732" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="4669.2" y="761.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="4666.6" y="775" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Subset</text>
+<rect x="4824" y="828" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="4842" y="857.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Pick</text>
+<text x="4841.8" y="871" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Line</text>
+<rect x="4620" y="754" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="4628" y="778.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">2</text>
+<rect x="4620" y="798" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="4628" y="822.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">1</text>
+<rect x="4884" y="772" width="110" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="4892" y="796.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">hundred</text>
+<rect x="4498" y="648" width="36" height="32" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="4506" y="669.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="4534" y="1130" width="140" height="338" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="4542" y="1304.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">\none\ntwo\…</text>
+<rect x="5228" y="976" width="134" height="338" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="5236" y="1150.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">\nten\ntwen…</text>
+<rect x="5800" y="968" width="120" height="338" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="5808" y="1142.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">\neleven\n…</text>
+<rect x="6476" y="868" width="182" height="702" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="6484" y="1224.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">\nthousand\nmilli…</text>
+<rect x="744" y="104" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="748.7" y="133.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Reverse</text>
+<text x="755.2" y="147" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<rect x="368" y="144" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="372.7" y="173.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Reverse</text>
+<text x="379.2" y="187" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<rect x="308" y="68" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="318.6" y="104.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Divide</text>
+<rect x="366" y="68" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="376.4" y="90.3" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Round</text>
+<text x="390.6" y="104.1" font-size="12" font-weight="bold" fill="rgb(28,33,40)">To</text>
+<text x="368.9" y="117.9" font-size="12" font-weight="bold" fill="rgb(28,33,40)">+Infinity</text>
+<rect x="240" y="60" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="251.2" y="89.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<text x="248.4" y="103" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Length</text>
+<rect x="560" y="126" width="64" height="64" fill="rgb(255,247,204)" stroke="rgb(122,106,42)" stroke-width="1"/>
+<text x="562.8" y="155.2" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Search…</text>
+<text x="571.2" y="169" font-size="12" font-weight="bold" fill="rgb(28,33,40)">String</text>
+<rect x="522" y="160" width="22" height="38" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="530" y="184.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">3</text>
+<rect x="156" y="164" width="64" height="58" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="163.9" y="184" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Format</text>
+<text x="174.5" y="197.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Into</text>
+<text x="167.2" y="210.7" font-size="12" font-weight="bold" fill="rgb(59,65,72)">String</text>
+<rect x="60" y="196" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(255,127,0)" stroke-width="4"/>
+<text x="68.7" y="216.8" font-size="14" font-weight="bold" fill="rgb(255,127,0)">NUME</text>
+<text x="52.4" y="189.6" font-size="17" fill="rgb(28,33,40)">Numeric</text>
+<rect x="310" y="130" width="40" height="38" fill="rgb(255,255,255)" stroke="rgb(255,127,0)" stroke-width="2"/>
+<text x="318" y="154.5" font-size="16" font-weight="bold" fill="rgb(255,127,0)">3</text>
+<rect x="136" y="480" width="36" height="32" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="144" y="501.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)"></text>
+<rect x="80" y="98" width="72" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="88" y="122.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">%0.0f</text>
+<rect x="7128" y="328" width="58" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="7136" y="352.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">zero</text>
+<rect x="186" y="316" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="192.8" y="339.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">N</text>
+<rect x="7090" y="484" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="186" y="484" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="186" y="546" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="214" y="1496" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="226.2" y="1519.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">i</text>
+<rect x="6795" y="402" width="138" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="6795" y="402" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="6813,410 6803,417 6813,424" fill="rgb(51,51,51)"/>
+<rect x="6907" y="402" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="6915,410 6925,417 6915,424" fill="rgb(51,51,51)"/>
+<text x="6836.3" y="423.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">False</text>
+<rect x="6656" y="752" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="6658.8" y="770.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="6656" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6656" y="458" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="7054" y="488" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6880" y="1014" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6760" y="1014" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="340" y="546" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6430" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2842.8" y="1198" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2842.8" y="1198" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2860.8,1206 2850.8,1213 2860.8,1220" fill="rgb(51,51,51)"/>
+<rect x="2943.2" y="1198" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2951.2,1206 2961.2,1213 2951.2,1220" fill="rgb(51,51,51)"/>
+<text x="2882.7" y="1219.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="2674" y="1302" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="2676.8" y="1320.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="2674" y="1266" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2842.8" y="738" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2842.8" y="738" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2860.8,746 2850.8,753 2860.8,760" fill="rgb(51,51,51)"/>
+<rect x="2943.2" y="738" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2951.2,746 2961.2,753 2951.2,760" fill="rgb(51,51,51)"/>
+<text x="2882.7" y="759.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="2674" y="842" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="2676.8" y="860.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="2674" y="806" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2842.8" y="454" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="2842.8" y="454" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2860.8,462 2850.8,469 2860.8,476" fill="rgb(51,51,51)"/>
+<rect x="2943.2" y="454" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="2951.2,462 2961.2,469 2951.2,476" fill="rgb(51,51,51)"/>
+<text x="2882.7" y="475.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="2674" y="558" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="2676.8" y="576.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="2674" y="522" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5947" y="570" width="138" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5947" y="570" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5965,578 5955,585 5965,592" fill="rgb(51,51,51)"/>
+<rect x="6059" y="570" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="6067,578 6077,585 6067,592" fill="rgb(51,51,51)"/>
+<text x="5988.3" y="591.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">False</text>
+<rect x="5656" y="802" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="5658.8" y="820.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="5656" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6358" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5684" y="942" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5744" y="942" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5934" y="572" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6076" y="942" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5996" y="942" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5954.8" y="606" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5954.8" y="606" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5972.8,614 5962.8,621 5972.8,628" fill="rgb(51,51,51)"/>
+<rect x="6055.2" y="606" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="6063.2,614 6073.2,621 6063.2,628" fill="rgb(51,51,51)"/>
+<text x="5994.7" y="627.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="5710" y="850" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="5712.8" y="868.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="5710" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5744" y="918" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6308" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5934" y="608" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="6076" y="918" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5803" y="682" width="138" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5803" y="682" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5821,690 5811,697 5821,704" fill="rgb(51,51,51)"/>
+<rect x="5915" y="682" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5923,690 5933,697 5923,704" fill="rgb(51,51,51)"/>
+<text x="5844.3" y="703.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">False</text>
+<rect x="5770" y="880" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="5772.8" y="898.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="5770" y="696" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5956" y="696" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5294.8" y="590" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="5294.8" y="590" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5312.8,598 5302.8,605 5312.8,612" fill="rgb(51,51,51)"/>
+<rect x="5395.2" y="590" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="5403.2,598 5413.2,605 5403.2,612" fill="rgb(51,51,51)"/>
+<text x="5334.7" y="611.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="5084" y="802" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="5086.8" y="820.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="5084" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5614" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5278" y="592" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5266" y="942" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="4736.8" y="590" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="4736.8" y="590" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="4754.8,598 4744.8,605 4754.8,612" fill="rgb(51,51,51)"/>
+<rect x="4837.2" y="590" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="4845.2,598 4855.2,605 4845.2,612" fill="rgb(51,51,51)"/>
+<text x="4776.7" y="611.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">True</text>
+<rect x="4560" y="802" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="4562.8" y="820.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="4560" y="656" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="5022" y="672" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="4666" y="592" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="4690" y="922" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="456" y="84" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="462.8" y="107.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">N</text>
+<rect x="692" y="164" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="456" y="164" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="706" y="128" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="476" y="216" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="488.2" y="239.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">i</text>
+</svg>
+</g></g>
+</svg>

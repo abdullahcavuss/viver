@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, avatar %}
+{% set tab = "code" %}
+{% block title %}{{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="row" style="margin-bottom:14px">
+  <form method="get" class="row" style="gap:6px">
+    <select name="ref" onchange="this.form.submit()" title="Branch / version">
+      <optgroup label="Branches">
+      {% for b in branches %}<option value="{{ b.name }}" {{ 'selected' if b.name == ref }}>⑂ {{ b.name }}</option>{% endfor %}
+      </optgroup>
+      {% if tags %}<optgroup label="Versions">
+      {% for t in tags %}<option value="{{ t.name }}" {{ 'selected' if t.name == ref }}>🏷 {{ t.name }}</option>{% endfor %}
+      </optgroup>{% endif %}
+      {% if commit and ref not in branches|map(attribute='name')|list and ref not in tags|map(attribute='name')|list %}<option selected>{{ commit.short }}</option>{% endif %}
+    </select>
+    {% if path %}<input type="hidden" name="path" value="{{ path }}">{% endif %}
+  </form>
+  <div class="breadcrumbs">
+    <a href="{{ url_for('repo_home', name=repo.name, ref=ref) }}">{{ repo.name }}</a>
+    {% for c in crumbs %}<span class="faint">/</span><a href="{{ url_for('repo_home', name=repo.name, ref=ref, path=c.path) }}">{{ c.name }}</a>{% endfor %}
+  </div>
+  <span class="grow"></span>
+  {% if commit %}
+    <a class="btn" href="{{ url_for('download_zip', name=repo.name, ref=commit.id) }}">⬇ Download ZIP</a>
+  {% endif %}
+  {% if repo.work_dir %}<a class="btn primary" href="{{ url_for('repo_status', name=repo.name) }}">Commit changes</a>
+  {% else %}<a class="btn primary" href="{{ url_for('repo_upload', name=repo.name) }}">Upload project</a>{% endif %}
+</div>
+
+{% if not commit %}
+  <div class="card empty">
+    <h2>No commits on this branch yet</h2>
+    {% if repo.work_dir %}
+      <p>Project folder: <code>{{ repo.work_dir }}</code></p>
+      <a class="btn primary" href="{{ url_for('repo_status', name=repo.name) }}">Create the first commit</a>
+    {% else %}
+      <p>Upload the project folder from the browser, or link a folder on this computer in Settings.</p>
+      <a class="btn primary" href="{{ url_for('repo_upload', name=repo.name) }}">Upload project</a>
+      <a class="btn" href="{{ url_for('settings', name=repo.name) }}">Link folder</a>
+    {% endif %}
+  </div>
+{% else %}
+<div class="card">
+  <div class="latest">
+    {{ avatar(commit.author) }}
+    <b>{{ commit.author or "?" }}</b>
+    <a href="{{ url_for('commit_view', name=repo.name, cid=commit.id) }}" style="color:var(--text)" class="grow">{{ commit.title }}</a>
+    <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=commit.id) }}">{{ commit.short }}</a>
+    <span class="faint">{{ commit.time }}</span>
+    <a href="{{ url_for('commits', name=repo.name, ref=ref) }}" class="btn sm">{{ icon("commit") }} {{ total_commits }} commit{{ '' if total_commits == 1 else 's' }}</a>
+  </div>
+  <table class="ftable">
+    {% if path %}<tr><td colspan="3"><a href="{{ url_for('repo_home', name=repo.name, ref=ref, path=path.rsplit('/',1)[0] if '/' in path else '') }}">..</a></td></tr>{% endif %}
+    {% for d in dirs %}
+    <tr>
+      <td><div class="name">{{ icon("dir") }}<a href="{{ url_for('repo_home', name=repo.name, ref=ref, path=d.path) }}" style="color:var(--text)">{{ d.name }}</a> <span class="faint small">{{ d.count }} file{{ '' if d.count == 1 else 's' }}{% if d.vis %}, {{ d.vis }} VI{{ '' if d.vis == 1 else 's' }}{% endif %}</span></div></td>
+      <td class="msg">{% if d.last %}<a href="{{ url_for('commit_view', name=repo.name, cid=d.last.id) }}" style="color:inherit">{{ d.last.title }}</a>{% endif %}</td>
+      <td class="when">{% if d.last %}{{ d.last.time }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+    {% for f in files %}
+    <tr>
+      <td><div class="name">{{ icon(f.kind) }}<a href="{{ url_for('file_view', name=repo.name, ref=ref, path=f.path) }}" style="color:var(--text)">{{ f.name }}</a> <span class="faint small">{{ f.size|hsize }}</span></div></td>
+      <td class="msg">{% if f.last %}<a href="{{ url_for('commit_view', name=repo.name, cid=f.last.id) }}" style="color:inherit">{{ f.last.title }}</a>{% endif %}</td>
+      <td class="when">{% if f.last %}{{ f.last.time }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% if readme %}
+<div class="card"><div class="card-head"><b>README</b></div><div class="card-body" style="white-space:pre-wrap">{{ readme }}</div></div>
+{% endif %}
+{% endif %}
+{% endblock %}

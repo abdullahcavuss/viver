@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, status_badge, split_path %}
+{% set tab = "status" %}
+{% block title %}Changes · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+{% set changes = status.changes %}
+<form method="post" action="{{ url_for('commit_workdir', name=repo.name) }}" data-needs-author>
+<div class="status-layout">
+  <aside class="commit-box">
+    <div class="card">
+      <div class="card-head"><b>Commit</b><span class="grow"></span><span class="pill branch">⑂ {{ status.branch }}</span></div>
+      <div class="card-body">
+        <div class="field"><input type="text" name="message" required placeholder="Summary (required) — e.g. Added temperature compensation to the calibration VI" {{ 'disabled' if not changes }}></div>
+        <div class="field"><textarea name="description" placeholder="Description (optional)" {{ 'disabled' if not changes }}></textarea></div>
+        <input type="hidden" name="author" value="">
+        <button id="commit-btn" class="btn green" style="width:100%;justify-content:center" type="submit" {{ 'disabled' if not changes }}>
+          Commit&nbsp;<span>all changes</span>&nbsp;and back up
+        </button>
+        <p class="hint">A commit permanently stores the current state of the selected files. Unchanged files are not copied again; still, every commit is a complete version of the project.</p>
+      </div>
+    </div>
+    <div class="card small muted"><div class="card-body">
+      <div>📁 <code>{{ repo.work_dir }}</code></div>
+      <div style="margin-top:4px">{{ status.files }} tracked file{{ '' if status.files == 1 else 's' }} · HEAD {% if status.head %}<a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=status.head) }}">{{ status.head[:7] }}</a>{% else %}none{% endif %}</div>
+      <div style="margin-top:4px">{% if repo.safe_read %}🛡 Read through verified snapshot copies{% else %}Reads the project files directly{% endif %}{% if repo.protect_workdir %} · never writes to this folder{% endif %}{% if repo.zip_on_commit %} · ZIP on every commit{% endif %}</div>
+      <div style="margin-top:6px"><a href="{{ url_for('repo_status', name=repo.name) }}">↻ Rescan</a> · <a href="{{ url_for('settings', name=repo.name) }}">Ignore rules</a></div>
+    </div></div>
+  </aside>
+  <section>
+    {% if status.busy %}
+      <div class="flash error">⚠ {{ status.busy|length }} file(s) were changing while VIVER was reading them (LabVIEW may still be saving) and were skipped: {{ status.busy[:8]|join(", ") }}{% if status.busy|length > 8 %} …{% endif %}. <a href="{{ url_for('repo_status', name=repo.name) }}">Rescan</a> in a moment.</div>
+    {% endif %}
+    {% if not changes %}
+      <div class="card empty">
+        <h2>Working folder is clean ✓</h2>
+        <p>No saved changes since the last commit.<br>Refresh this page after saving VIs in LabVIEW.</p>
+      </div>
+    {% else %}
+    <div class="card">
+      <div class="card-head">
+        <input type="checkbox" id="check-all" checked>
+        <b>{{ changes|length }} changed file{{ '' if changes|length == 1 else 's' }}</b>
+        <span class="grow"></span>
+        <span class="small muted">
+          {% set na = changes|selectattr("status","equalto","added")|list|length %}
+          {% set nm = changes|selectattr("status","equalto","modified")|list|length %}
+          {% set nd = changes|selectattr("status","equalto","deleted")|list|length %}
+          {% if na %}<span class="num-add">+{{ na }}</span> {% endif %}{% if nm %}<span class="num-mod">~{{ nm }}</span> {% endif %}{% if nd %}<span class="num-del">−{{ nd }}</span>{% endif %}
+        </span>
+      </div>
+      <div class="check-row" style="background:var(--panel-2)"><span class="small muted">VIs are inspected without opening LabVIEW:</span><span class="vi-tally" data-vi-tally><span class="spinner"></span></span></div>
+      <div class="vi-filter" data-vi-filter="commit"></div>
+      {% for c in changes %}
+      <div class="check-row" {% if is_vi(c.path) and c.status != "renamed" %}data-vi-row{% endif %}>
+        <input type="checkbox" name="paths" value="{{ c.path }}" checked>
+        {% if c.status == "renamed" %}<input type="checkbox" name="paths" value="{{ c.old_path }}" checked hidden>{% endif %}
+        {{ status_badge(c.status) }}
+        {{ icon(c.kind) }}
+        <span class="path" title="{{ c.path }}">{% if c.status == "renamed" %}<span class="faint">{{ c.old_path }} → </span>{% endif %}{{ split_path(c.path) }}</span>
+        {% if is_vi(c.path) %}
+          {% if c.status != "renamed" %}
+          <span class="vi-sum" data-vi-summary data-old="{{ c.old_sha or '' }}" data-new="{{ c.new_sha or '' }}" data-name="{{ c.path }}"><span class="spinner"></span></span>
+          {% endif %}
+          <a class="btn sm" href="{{ url_for('workdir_diff', name=repo.name, path=c.path) }}">Block diagram diff</a>
+        {% endif %}
+        <span class="faint small" style="width:70px;text-align:right">{{ c.new_size|hsize if c.new_size else '' }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+</div>
+</form>
+{% if changes and status.head and not repo.protect_workdir %}
+<form method="post" action="{{ url_for('restore', name=repo.name) }}" data-confirm="All unsaved changes will be discarded and the project folder will be reverted to the last commit. The current state is backed up as a ZIP first. Continue?" style="margin-top:16px;text-align:right">
+  <input type="hidden" name="ref" value="{{ status.head }}">
+  <button class="btn danger sm" type="submit">Discard all changes (revert to the last commit)</button>
+</form>
+{% endif %}
+{% endblock %}

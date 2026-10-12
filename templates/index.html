@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, avatar %}
+{% block title %}Repositories{% endblock %}
+{% block content %}
+<div class="grid-2">
+  <section>
+    <div class="row" style="margin-bottom:12px">
+      <h1 class="grow" style="margin:0">LabVIEW projects</h1>
+      <span class="muted small">{{ repos|length }} repositor{{ 'y' if repos|length == 1 else 'ies' }} · backup store {{ usage|hsize }} ({{ objects }} objects)</span>
+    </div>
+    {% if not repos %}
+      <div class="card empty">
+        <h2>No repositories yet</h2>
+        <p>Create your first repository with the form on the right by pointing it to your LabVIEW project folder.<br>
+        Every commit is a full backup of the project; you see the differences between VIs on the block diagram without opening LabVIEW.</p>
+      </div>
+    {% endif %}
+    <div class="card">
+    {% for r in repos %}
+      <div class="citem" style="display:flex;gap:14px;padding:16px;border-top:{{ '0' if loop.first else '1px solid var(--border)' }}">
+        {{ icon("proj", "ficon") }}
+        <div class="grow" style="min-width:0">
+          <div class="row" style="gap:8px">
+            <a href="{{ url_for('repo_home', name=r.name) }}" style="font-weight:700;font-size:16px">{{ r.name }}</a>
+            <span class="pill branch">{{ r.current_branch }}</span>
+          </div>
+          {% if r.description %}<div class="muted">{{ r.description }}</div>{% endif %}
+          <div class="small faint" style="margin-top:4px">
+            {% if r.work_dir %}📁 {{ r.work_dir }} · {% endif %}{{ r.commit_count }} commit{{ '' if r.commit_count == 1 else 's' }}
+            {% if r.last_commit %} · last: “{{ r.last_commit.title }}” — {{ r.last_commit.author or "?" }}, {{ r.last_commit.time }}{% endif %}
+          </div>
+        </div>
+        <div class="row" style="gap:6px">
+          {% if r.work_dir %}<a class="btn sm" href="{{ url_for('repo_status', name=r.name) }}">Changes</a>{% endif %}
+          <a class="btn sm" href="{{ url_for('commits', name=r.name) }}">History</a>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </section>
+  <aside>
+    <div class="card">
+      <div class="card-head"><b>New repository</b></div>
+      <form class="card-body" method="post" action="{{ url_for('create_repo') }}">
+        <div class="field"><label class="lbl">Repository name</label><input type="text" name="name" required placeholder="TestStand-System" pattern="[A-Za-z0-9._\-]+"></div>
+        <div class="field"><label class="lbl">Description</label><input type="text" name="description" placeholder="Optional"></div>
+        <div class="field"><label class="lbl">Project folder (on this computer)</label>
+          <input type="text" name="work_dir" placeholder="C:\LabVIEW\MyProjects\Line1">
+          <div class="hint">If you give a folder, VIVER finds the changes by itself and you commit with one click. If you leave it empty, you commit by uploading a folder/ZIP from the browser.</div>
+        </div>
+        <button class="btn primary" type="submit">Create repository</button>
+      </form>
+    </div>
+    <div class="card">
+      <div class="card-body small muted">
+        <b style="color:var(--text)">How does it work?</b>
+        <ol style="padding-left:18px;margin:8px 0 0">
+          <li>Work in LabVIEW and save.</li>
+          <li>On the <b>Changes</b> tab, see the changed VIs, write a message and commit. The project is backed up instantly.</li>
+          <li>Pick any two versions in <b>History</b> and inspect the VI differences on the block diagram.</li>
+          <li>Download any version as a ZIP or restore it into the project folder.</li>
+        </ol>
+      </div>
+    </div>
+  </aside>
+</div>
+{% endblock %}

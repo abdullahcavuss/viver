@@ -1,0 +1,19 @@
+{% from "_macros.html" import icon %}
+<div class="repo-head">
+  <div class="repo-title">
+    <h1>{{ repo.name }}</h1>
+    <span class="pill branch">{{ icon("branch", "ficon") }} {{ repo.current_branch }}</span>
+    {% if repo.work_dir %}<span class="pill" title="Project folder">📁 {{ repo.work_dir }}</span>{% endif %}
+    {% if repo.description %}<span class="desc">{{ repo.description }}</span>{% endif %}
+  </div>
+  <nav class="tabs">
+    <a href="{{ url_for('repo_home', name=repo.name) }}" class="{{ 'on' if tab=='code' }}">{{ icon("vi") }} Project</a>
+    <a href="{{ url_for('repo_status', name=repo.name) }}" class="{{ 'on' if tab=='status' }}">● Changes &amp; Commit</a>
+    <a href="{{ url_for('commits', name=repo.name) }}" class="{{ 'on' if tab=='commits' }}">{{ icon("commit") }} History</a>
+    <a href="{{ url_for('compare', name=repo.name) }}" class="{{ 'on' if tab=='compare' }}">⇄ Compare</a>
+    <a href="{{ url_for('changelog_page', name=repo.name) }}" class="{{ 'on' if tab=='changelog' }}">📄 CHANGELOG</a>
+    <a href="{{ url_for('branches', name=repo.name) }}" class="{{ 'on' if tab=='branches' }}">{{ icon("tag") }} Branches &amp; Versions</a>
+    <a href="{{ url_for('repo_upload', name=repo.name) }}" class="{{ 'on' if tab=='upload' }}">⬆ Upload</a>
+    <a href="{{ url_for('settings', name=repo.name) }}" class="{{ 'on' if tab=='settings' }}">⚙ Settings</a>
+  </nav>
+</div>

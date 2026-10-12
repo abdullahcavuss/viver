@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, avatar %}
+{% set tab = "commits" %}
+{% block title %}History · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="row" style="margin-bottom:6px">
+  <form method="get" class="row" style="gap:6px">
+    <select name="ref" onchange="this.form.submit()">
+      {% for b in branches %}<option value="{{ b.name }}" {{ 'selected' if b.name == ref }}>⑂ {{ b.name }}</option>{% endfor %}
+    </select>
+    {% if path %}<input type="hidden" name="path" value="{{ path }}">{% endif %}
+  </form>
+  {% if path %}<span>File history: <code>{{ path }}</code> <a href="{{ url_for('commits', name=repo.name, ref=ref) }}" class="small">(show all)</a></span>{% endif %}
+  <span class="grow"></span>
+  <span class="muted small">{{ count }} commit{{ '' if count == 1 else 's' }}</span>
+</div>
+{% if not groups %}<div class="card empty"><h2>No commits</h2></div>{% endif %}
+{% for g in groups %}
+<div class="day">Commits on {{ g.day }}</div>
+<div class="card clist">
+  {% for c in g.commits %}
+  <div class="citem">
+    {{ avatar(c.author) }}
+    <div class="grow" style="min-width:0">
+      <a class="ctitle" href="{{ url_for('commit_view', name=repo.name, cid=c.id) }}">{{ c.title }}</a>
+      {% for t in tags_by_commit.get(c.id, []) %}<span class="pill tag">🏷 {{ t }}</span>{% endfor %}
+      <div class="cmeta">
+        <b>{{ c.author or "?" }}</b> · {{ c.time.split(" ")[1] }}
+        {% if c.branch != ref %}<span class="pill branch">{{ c.branch }}</span>{% endif %}
+        {% if c.file_change %}<span>· file {{ {"added":"added","modified":"modified","deleted":"deleted"}[c.file_change] }}</span>{% endif %}
+      </div>
+    </div>
+    <span class="cstats">
+      {% if c.stats.added %}<span class="num-add">+{{ c.stats.added }}</span> {% endif %}
+      {% if c.stats.modified %}<span class="num-mod">~{{ c.stats.modified }}</span> {% endif %}
+      {% if c.stats.deleted %}<span class="num-del">−{{ c.stats.deleted }}</span> {% endif %}
+      {% if c.stats.vi_changed %}<span class="faint">· {{ c.stats.vi_changed }} VI</span>{% endif %}
+    </span>
+    {% if path and c.file_change == "modified" and not loop.last %}
+      {% set prev = g.commits[loop.index] %}
+    {% endif %}
+    {% if path and c.file_change == "modified" and is_vi(path) %}
+      <a class="btn sm" href="{{ url_for('vidiff_view', name=repo.name, path=path, b=c.id, a=c.parent) }}">VI diff</a>
+    {% endif %}
+    <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=c.id) }}">{{ c.short }}</a>
+    <a class="btn sm" title="Files in this version" href="{{ url_for('repo_home', name=repo.name, ref=c.id) }}">&lt;/&gt;</a>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
+{% endblock %}

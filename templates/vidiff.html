@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon %}
+{% block title %}{{ fname }} diff · {{ repo.name }}{% endblock %}
+{% block bodyclass %}fullscreen-app{% endblock %}
+{% block body %}
+<div class="vd" data-vi-diff data-old="{{ old_sha or '' }}" data-new="{{ new_sha or '' }}" data-fname="{{ fname }}"
+     data-old-label="{{ old_label }}" data-new-label="{{ new_label }}">
+  <aside class="vd-side">
+    <div class="head">
+      <div class="small"><a href="{{ back_url }}">← {{ back_label }}</a></div>
+      <div class="fname" style="margin-top:6px">{{ icon("vi") }} {{ fname }}</div>
+      <div class="faint small" style="word-break:break-all">{{ path }}</div>
+      <div class="vd-icons"></div>
+    </div>
+    <div class="vd-tabs">
+      <button class="on" data-tab="bd" title="Block diagram">Diagram <span class="n">…</span></button>
+      <button data-tab="fp" title="Front panel controls">Panel <span class="n">…</span></button>
+      <button data-tab="deps" title="SubVI, typedef and library dependencies">Dependencies <span class="n">…</span></button>
+      <button data-tab="props" title="VI properties">Properties <span class="n">…</span></button>
+    </div>
+    <div class="vd-filter"></div>
+    <div class="vd-list"></div>
+    <div class="small faint" style="padding:8px 14px;border-top:1px solid var(--border)">Use <b>j</b>/<b>k</b> or ↑/↓ to move through the list · clicking an item pans both diagrams to that spot</div>
+  </aside>
+  <section class="vd-main">
+    <div class="vd-toolbar">
+      {% if history %}
+      <span class="lbl">Old</span>
+      <select data-ver="a">
+        {% if not a %}<option value="">— (none)</option>{% endif %}
+        {% if old_custom %}<option selected>{{ old_label }}</option>{% endif %}
+        {% for h in history %}<option value="{{ h.id }}" {{ 'selected' if a and h.id == a.id and not old_custom }}>{{ h.short }} · {{ h.title[:42] }} ({{ h.time }})</option>{% endfor %}
+        {% if a and a.id not in history|map(attribute='id')|list and not old_custom %}<option value="{{ a.id }}" selected>{{ a.short }} · {{ a.title[:42] }}</option>{% endif %}
+      </select>
+      <span class="lbl">→ New</span>
+      <select data-ver="b">
+        {% if new_custom %}<option selected>{{ new_label }}</option>{% endif %}
+        {% for h in history %}<option value="{{ h.id }}" {{ 'selected' if b and h.id == b.id and not new_custom }}>{{ h.short }} · {{ h.title[:42] }} ({{ h.time }})</option>{% endfor %}
+        {% if b and b.id not in history|map(attribute='id')|list and not new_custom %}<option value="{{ b.id }}" selected>{{ b.short }} · {{ b.title[:42] }}</option>{% endif %}
+      </select>
+      {% endif %}
+      <span class="btn-group">
+        <button class="btn sm on" data-mode="split">Side by side</button>
+        <button class="btn sm" data-mode="old">Old</button>
+        <button class="btn sm" data-mode="new">New</button>
+      </span>
+      <label class="tg"><input type="checkbox" data-opt="dim" checked> Dim unchanged</label>
+      <label class="tg"><input type="checkbox" data-opt="moved"> Show moved</label>
+      <label class="tg" title="Show Stacked Sequence frames side by side like a Flat Sequence"><input type="checkbox" data-opt="flat" checked> Stacked → Flat</label>
+      <label class="tg"><input type="checkbox" data-opt="sync" checked> Sync scroll</label>
+      <label class="tg"><input type="checkbox" data-opt="names"> SubVI labels</label>
+      <span class="grow"></span>
+      <span class="legend">
+        <span><i style="border-color:#1a7f37;background:rgba(26,127,55,.13)"></i>added</span>
+        <span><i style="border-color:#cf222e;background:rgba(207,34,46,.12)"></i>removed</span>
+        <span><i style="border-color:#d97706;background:rgba(217,119,6,.14)"></i>modified</span>
+        <span><i style="border-color:#8250df;background:rgba(130,80,223,.10)"></i>other frame</span>
+        <span><i style="border-color:#2f6feb;border-style:dashed"></i>moved</span>
+      </span>
+    </div>
+    <div class="panes" style="position:relative">
+      <div class="pane old"></div>
+      <div class="pane new"></div>
+      <div class="loading-overlay"><span class="spinner"></span><span>Parsing and comparing the VIs with pylabview…</span><span class="small faint">The first time may take a few seconds; the result is cached.</span></div>
+    </div>
+  </section>
+</div>
+<script src="{{ url_for('static', filename='diagram.js') }}"></script>
+<script src="{{ url_for('static', filename='vidiff.js') }}"></script>
+{% endblock %}

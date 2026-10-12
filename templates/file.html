@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, avatar %}
+{% set tab = "code" %}
+{% block title %}{{ fname }} · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="row" style="margin-bottom:12px">
+  <div class="breadcrumbs">
+    <a href="{{ url_for('repo_home', name=repo.name, ref=ref) }}">{{ repo.name }}</a>
+    {% for c in crumbs %}<span class="faint">/</span><a href="{{ url_for('repo_home', name=repo.name, ref=ref, path=c.path) }}">{{ c.name }}</a>{% endfor %}
+    <span class="faint">/</span><b>{{ fname }}</b>
+  </div>
+  <span class="grow"></span>
+  <span class="sha">{{ commit.short }}</span>
+  <a class="btn sm" href="{{ url_for('raw', name=repo.name, cid=commit.id, path=path) }}">⬇ Download</a>
+  <a class="btn sm" href="{{ url_for('commits', name=repo.name, path=path) }}">{{ icon("commit") }} History ({{ history|length }})</a>
+  {% if repo.work_dir and not repo.protect_workdir %}
+  <form method="post" action="{{ url_for('restore', name=repo.name) }}" data-confirm="This version of the file will be written to the project folder (its current state is backed up first). Continue?">
+    <input type="hidden" name="ref" value="{{ commit.id }}"><input type="hidden" name="path" value="{{ path }}">
+    <button class="btn sm" type="submit">↺ Restore this version</button>
+  </form>
+  {% endif %}
+</div>
+
+{% if kind in ("vi", "ctl") %}
+<div class="grid-2" data-vi-viewer data-model="{{ url_for('api_vimodel', name=repo.name, ref=commit.id, path=path) }}">
+  <div>
+    <div class="viewer"></div>
+    <div class="legend" style="margin-top:8px">
+      <span><i style="border-color:#ff7f00"></i>float</span><span><i style="border-color:#1f5fd6"></i>integer</span>
+      <span><i style="border-color:#008a2e"></i>boolean</span><span><i style="border-color:#e040b0"></i>string</span>
+      <span><i style="border-color:#8b5a2b"></i>cluster</span><span><i style="border-color:#2e8b8b"></i>path</span>
+      <span class="faint">· drag: pan · wheel: zoom · click a case label: choose frame · double-click a primitive: name it</span>
+    </div>
+  </div>
+  <aside>
+    <div class="card"><div class="card-head"><b>VI info</b></div><div data-vi-info><div style="padding:14px"><span class="spinner"></span></div></div></div>
+    <div class="card">
+      <div class="card-head"><b>History of this file</b></div>
+      {% for h in history[:30] %}
+      <div class="check-row" style="gap:8px">
+        <a class="sha" href="{{ url_for('file_view', name=repo.name, ref=h.id, path=path) }}">{{ h.short }}</a>
+        <span class="path" style="font-family:inherit" title="{{ h.title }}">{{ h.title }}</span>
+        {% if not loop.last %}<a class="btn sm" href="{{ url_for('vidiff_view', name=repo.name, path=path, a=h.parent, b=h.id) }}">diff</a>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </aside>
+</div>
+{% elif content is not none %}
+<div class="card">
+  <div class="card-head"><b>{{ fname }}</b><span class="faint small">{{ size|hsize }} · {{ content.count("\n") + 1 }} lines</span></div>
+  <div class="code"><table>
+    {% for line in content.split("\n") %}<tr><td class="ln">{{ loop.index }}</td><td class="tx">{{ line }}</td></tr>{% endfor %}
+  </table></div>
+</div>
+{% else %}
+<div class="card empty"><h2>{{ fname }}</h2><p>Binary file · {{ size|hsize }}</p><a class="btn" href="{{ url_for('raw', name=repo.name, cid=commit.id, path=path) }}">⬇ Download</a></div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='diagram.js') }}"></script>
+<script src="{{ url_for('static', filename='vidiff.js') }}"></script>
+{% endblock %}

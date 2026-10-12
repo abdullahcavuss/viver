@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}VIVER{% endblock %} · VIVER</title>
+<link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+{% block head %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+<header class="topbar">
+  <a class="brand" href="{{ url_for('index') }}">
+    <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><rect x="4" y="4" width="56" height="56" rx="7" fill="#14181F" stroke="#FFFFFF" stroke-width="3"/><path d="M4 15 V11 A7 7 0 0 1 11 4 H53 A7 7 0 0 1 60 11 V15 Z" fill="#FFFFFF"/><path d="M15 22 L30.5 46" stroke="#E8590C" stroke-width="6" fill="none"/><path d="M49 22 L33.5 46" stroke="#6EA8FF" stroke-width="6" fill="none"/><rect x="26" y="44" width="12" height="10" fill="#FFFFFF"/></svg>
+    <span><span style="color:#FF7A2F">VI</span>VER</span>
+  </a>
+  {% if repo %}<span class="crumb">/ <a href="{{ url_for('repo_home', name=repo.name) }}">{{ repo.name }}</a></span>{% endif %}
+  <span class="spacer"></span>
+  <a href="{{ url_for('primitives_page') }}" style="color:#aab3bf;font-size:12.5px">Primitive names</a>
+  <label class="author-box">User <input id="author-name" type="text" placeholder="your name"></label>
+</header>
+{% block repohead %}{% endblock %}
+{% block body %}
+<main class="wrap {% block wrapclass %}{% endblock %}">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for cat, msg in messages %}<div class="flash {{cat}}">{{ msg }}</div>{% endfor %}
+  {% endwith %}
+  {% block content %}{% endblock %}
+</main>
+{% endblock %}
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

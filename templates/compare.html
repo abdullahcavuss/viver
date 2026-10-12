@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon, avatar, status_badge, split_path %}
+{% set tab = "commits" if single else "compare" %}
+{% block title %}{{ head.title if single else "Comparison" }} · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="card" style="margin-bottom:16px">
+  <div class="card-body">
+  {% if single %}
+    <div class="row" style="align-items:flex-start">
+      <div class="grow">
+        <h2 style="margin-bottom:4px">{{ head.title }}</h2>
+        {% if head.body %}<div class="muted" style="white-space:pre-wrap">{{ head.body }}</div>{% endif %}
+        <div class="row small muted" style="margin-top:8px;gap:8px">
+          {{ avatar(head.author) }} <b style="color:var(--text)">{{ head.author or "?" }}</b> committed on {{ head.time }}
+          <span class="pill branch">⑂ {{ head.branch }}</span>
+          {% for t in tags %}<span class="pill tag">🏷 {{ t.name }}</span>{% endfor %}
+        </div>
+      </div>
+      <div style="text-align:right" class="small">
+        <div>commit <a class="sha" href="#" data-copy="{{ head.id }}">{{ head.short }}</a></div>
+        {% if base %}<div style="margin-top:4px">parent <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=base.id) }}">{{ base.short }}</a></div>{% else %}<div class="faint" style="margin-top:4px">first commit</div>{% endif %}
+      </div>
+    </div>
+    <div class="row" style="margin-top:14px;gap:8px">
+      <a class="btn sm" href="{{ url_for('repo_home', name=repo.name, ref=head.id) }}">&lt;/&gt; Files in this version</a>
+      <a class="btn sm" href="{{ url_for('download_zip', name=repo.name, ref=head.id) }}">⬇ Download this version as ZIP</a>
+      <a class="btn sm" href="{{ url_for('changelog_page', name=repo.name, base=base.id if base else '', head=head.id) }}">📄 Generate CHANGELOG.md</a>
+      {% if repo.work_dir and not repo.protect_workdir %}
+      <form method="post" action="{{ url_for('restore', name=repo.name) }}" data-confirm="The project folder will be set to the state of this commit. The current state is backed up as a ZIP first. Continue?">
+        <input type="hidden" name="ref" value="{{ head.id }}"><button class="btn sm" type="submit">↺ Restore to project folder</button>
+      </form>
+      {% endif %}
+      <details style="display:inline-block">
+        <summary class="btn sm">📂 Restore to another folder</summary>
+        <form method="post" action="{{ url_for('export_folder', name=repo.name) }}" class="row" style="margin-top:8px;gap:6px">
+          <input type="hidden" name="ref" value="{{ head.id }}">
+          <input type="text" name="dest" value="{{ export_dest }}" style="width:420px" required title="A new or empty folder outside the project folder">
+          <button class="btn sm primary">Restore here</button>
+        </form>
+        <div class="hint" style="max-width:560px">Writes this version into a new (or empty) folder; your project folder is not touched. Every file is checked against its checksum after writing.</div>
+      </details>
+      <details style="display:inline-block">
+        <summary class="btn sm">🏷 Add version tag</summary>
+        <form method="post" action="{{ url_for('branches', name=repo.name) }}" class="row" style="margin-top:8px;gap:6px">
+          <input type="hidden" name="action" value="tag"><input type="hidden" name="commit" value="{{ head.id }}">
+          <input type="text" name="tag" placeholder="v1.0.0" style="width:120px" required>
+          <input type="text" name="message" placeholder="note" style="width:200px">
+          <button class="btn sm primary">Add</button>
+        </form>
+      </details>
+      <details style="display:inline-block">
+        <summary class="btn sm">⑂ Create branch from here</summary>
+        <form method="post" action="{{ url_for('branches', name=repo.name) }}" class="row" style="margin-top:8px;gap:6px">
+          <input type="hidden" name="action" value="create"><input type="hidden" name="from" value="{{ head.id }}">
+          <input type="text" name="branch" placeholder="experiment-branch" style="width:160px" required>
+          <button class="btn sm primary">Create</button>
+        </form>
+      </details>
+    </div>
+  {% else %}
+    <h2>Comparison</h2>
+    <div class="row" style="gap:8px">
+      <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=base.id) }}">{{ base.short }}</a> <span class="muted">{{ base.title }} ({{ base.time }})</span>
+      <b>→</b>
+      <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=head.id) }}">{{ head.short }}</a> <span class="muted">{{ head.title }} ({{ head.time }})</span>
+      <span class="grow"></span>
+      <a class="btn sm" href="{{ url_for('compare', name=repo.name, base=head.id, head=base.id) }}">⇄ Swap direction</a>
+      <a class="btn sm" href="{{ url_for('compare', name=repo.name) }}">Change</a>
+      <a class="btn sm primary" href="{{ url_for('changelog_page', name=repo.name, base=base.id, head=head.id) }}">📄 Generate CHANGELOG.md</a>
+    </div>
+  {% endif %}
+  </div>
+</div>
+
+<div class="row" style="margin-bottom:8px">
+  <b>{{ changes|length }} file{{ '' if changes|length == 1 else 's' }} changed</b>
+  <span class="small muted">· {{ changes|selectattr("is_vi")|list|length }} VI/control:</span>
+  <span class="vi-tally" data-vi-tally>{% if changes|selectattr("is_vi")|list %}<span class="spinner"></span>{% endif %}</span>
+</div>
+{% if not changes %}<div class="card empty">No file differences between these two versions.</div>{% endif %}
+{% if changes|selectattr("is_vi")|list %}<div class="card" style="margin-bottom:10px"><div class="vi-filter" data-vi-filter="view" style="border-top:0"></div></div>{% endif %}
+<div class="card changes">
+  {% for c in changes %}
+  <div class="ch">
+    <div class="ch-row" {% if c.is_vi and c.status != "renamed" %}data-vi-row{% endif %}>
+      {{ status_badge(c.status) }}
+      {{ icon(c.kind) }}
+      <span class="path" title="{{ c.path }}">{% if c.old_path %}<span class="faint">{{ c.old_path }} → </span>{% endif %}{{ split_path(c.path) }}</span>
+      {% if c.is_vi %}
+        {% if c.status != "renamed" %}<span class="vi-sum" data-vi-summary data-old="{{ c.old_sha or '' }}" data-new="{{ c.new_sha or '' }}" data-name="{{ c.path }}"><span class="spinner"></span></span>{% endif %}
+        <a class="btn sm primary" href="{{ url_for('vidiff_view', name=repo.name, path=c.path, old_path=c.old_path, a=base.id if base else None, b=head.id) }}">Block diagram diff →</a>
+      {% elif c.status == "modified" or (c.status in ("added","deleted") and file_kind(c.path) in ("proj","lib")) or c.path.endswith((".txt",".md",".ini",".xml",".csv",".lvproj",".lvlib",".lvclass")) %}
+        <button class="btn sm" type="button" data-textdiff="{{ url_for('textdiff_view', name=repo.name, path=c.path, old_path=c.old_path, a=base.id if base else '', b=head.id) }}" data-target="td{{ loop.index }}">Text diff</button>
+      {% endif %}
+      <span class="faint small" style="min-width:110px;text-align:right">{% if c.status == "modified" %}{{ c.old_size|hsize }} → {{ c.new_size|hsize }}{% elif c.status == "deleted" %}{{ c.old_size|hsize }}{% else %}{{ c.new_size|hsize }}{% endif %}</span>
+      {% if c.status != "deleted" %}<a class="btn sm" title="Download" href="{{ url_for('raw', name=repo.name, cid=head.id, path=c.path) }}">⬇</a>{% endif %}
+    </div>
+    <div id="td{{ loop.index }}" hidden style="border-top:1px solid var(--border);max-height:520px;overflow:auto"></div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

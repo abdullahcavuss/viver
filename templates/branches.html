@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% from "_macros.html" import icon %}
+{% set tab = "branches" %}
+{% block title %}Branches · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="grid-2">
+<section>
+  <div class="card">
+    <div class="card-head"><b>Branches</b></div>
+    {% for b in branches %}
+    <div class="check-row" style="padding:10px 14px">
+      {{ icon("branch") }}
+      <b class="mono">{{ b.name }}</b>
+      {% if b.name == repo.current_branch %}<span class="pill" style="color:var(--add);border-color:var(--add)">active</span>{% endif %}
+      <span class="path" style="font-family:inherit">{% if b.commit %}<a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=b.commit.id) }}">{{ b.commit.short }}</a> {{ b.commit.title }} <span class="faint">· {{ b.commit.time }}</span>{% else %}<span class="faint">empty</span>{% endif %}</span>
+      {% if b.name != repo.current_branch %}
+      <form method="post" data-confirm="Make “{{ b.name }}” the active branch?{% if repo.work_dir and not repo.protect_workdir %} The project folder will be set to the latest state of this branch (the current state is backed up).{% elif repo.protect_workdir %} The project folder is protected and will not be changed; use “Restore to another folder” on a commit to get the files.{% endif %}">
+        <input type="hidden" name="action" value="checkout"><input type="hidden" name="branch" value="{{ b.name }}"><input type="hidden" name="restore" value="1">
+        <button class="btn sm">Switch to this branch</button>
+      </form>
+      <a class="btn sm" href="{{ url_for('compare', name=repo.name, base=repo.current_branch, head=b.name) }}">Compare</a>
+      <form method="post" data-confirm="Delete the branch “{{ b.name }}”? (commits and backups are not deleted)">
+        <input type="hidden" name="action" value="delete"><input type="hidden" name="branch" value="{{ b.name }}">
+        <button class="btn sm danger">Delete</button>
+      </form>
+      {% endif %}
+    </div>
+    {% endfor %}
+    <form method="post" class="card-body row" style="border-top:1px solid var(--border)">
+      <input type="hidden" name="action" value="create">
+      <input type="text" name="branch" placeholder="new-branch-name" style="width:220px" required>
+      <span class="muted small">from:</span>
+      <select name="from">{% for b in branches %}<option {{ 'selected' if b.name == repo.current_branch }}>{{ b.name }}</option>{% endfor %}</select>
+      <button class="btn primary">Create branch</button>
+    </form>
+  </div>
+</section>
+<aside>
+  <div class="card">
+    <div class="card-head"><b>Version tags</b></div>
+    {% if not tags %}<div class="card-body small muted">No tags yet. You can mark a commit (e.g. <code>v1.0</code>, <code>FAT-approved</code>) with “Add version tag” on its commit page.</div>{% endif %}
+    {% for t in tags %}
+    <div class="check-row" style="padding:9px 14px">
+      <span class="pill tag">🏷 {{ t.name }}</span>
+      <span class="path" style="font-family:inherit">{{ t.message }}</span>
+      <a class="btn sm" href="{{ url_for('download_zip', name=repo.name, ref=t.commit_id) }}" title="Download ZIP">⬇</a>
+      <a class="sha" href="{{ url_for('commit_view', name=repo.name, cid=t.commit_id) }}">{{ t.commit_id[:7] }}</a>
+      <form method="post" data-confirm="Delete the tag?"><input type="hidden" name="action" value="untag"><input type="hidden" name="tag" value="{{ t.name }}"><button class="btn sm danger" title="Delete">✕</button></form>
+    </div>
+    {% endfor %}
+  </div>
+</aside>
+</div>
+{% endblock %}

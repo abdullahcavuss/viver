@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Primitive names{% endblock %}
+{% block content %}
+<div class="grid-2">
+<div class="card">
+  <div class="card-head">
+    <b>Primitive names</b><span class="grow"></span>
+    <span class="muted small">{{ rows|length }} entries · {{ rows|selectattr("source","equalto","user")|list|length }} entered manually</span>
+  </div>
+  <div class="card-body" style="padding-bottom:8px">
+    <input type="search" id="prim-filter" placeholder="Search by name or resID…">
+  </div>
+  <table class="kv" id="prim-table">
+    <tr><td class="faint">resID</td><td class="faint">Name</td><td class="faint">Source</td><td></td></tr>
+    {% for r in rows %}
+    <tr data-q="{{ (r.res_id ~ ' ' ~ r.name)|lower }}">
+      <td class="mono">{{ r.res_id }}</td><td>{{ r.name }}</td>
+      <td class="small {{ 'faint' if r.source != 'user' }}">{{ 'manual' if r.source == 'user' else r.source }}</td>
+      <td style="text-align:right"><button class="btn sm" data-rid="{{ r.res_id }}" data-name="{{ r.name }}">Edit</button></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <form class="card-body row" id="prim-add" style="border-top:1px solid var(--border)">
+    <input type="text" name="id" placeholder="resID (e.g. 1809)" style="width:150px" required>
+    <input type="text" name="name" placeholder="Name (e.g. Array Size)" style="width:220px" required>
+    <button class="btn primary">Add</button>
+  </form>
+</div>
+<aside>
+  <div class="card">
+    <div class="card-head"><b>Import from a LabVIEW installation</b></div>
+    <form method="post" class="card-body">
+      <p class="small muted" style="margin-top:0">VI files store primitives only by number (resID). VIVER reads the names from the function palettes (<code>menus\*.mnu</code>) of the LabVIEW installed on this computer. LabVIEW is not opened and no file is changed.</p>
+      <label class="lbl">LabVIEW folder</label>
+      {% if installs %}
+      <select name="lv_dir" style="width:100%">{% for i in installs %}<option>{{ i }}</option>{% endfor %}</select>
+      {% else %}
+      <input type="text" name="lv_dir" placeholder="C:\Program Files\National Instruments\LabVIEW 2026">
+      <div class="hint">No installation was found automatically; enter the path manually.</div>
+      {% endif %}
+      <div style="margin-top:10px"><button class="btn primary" {{ 'disabled' if job.running }}>Import names</button></div>
+      <div id="prim-job" class="small" style="margin-top:12px"></div>
+      <div class="progress" id="prim-prog" hidden><div></div></div>
+      <p class="hint">Names you entered manually are kept and never overwritten. Primitives not found in the palettes (hidden/old ones) stay as <code>#number</code>; you can name them by double-clicking them on a diagram.</p>
+    </form>
+  </div>
+</aside>
+</div>
+<script>
+const f = document.getElementById("prim-filter");
+f.addEventListener("input", () => { const q = f.value.toLowerCase(); document.querySelectorAll("#prim-table tr[data-q]").forEach(tr => tr.hidden = q && !tr.dataset.q.includes(q)); });
+document.getElementById("prim-add").addEventListener("submit", async e => {
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  await fetch("/api/prim-names", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({id: fd.get("id"), name: fd.get("name")})});
+  location.reload();
+});
+document.querySelectorAll("#prim-table [data-rid]").forEach(b => b.onclick = async () => {
+  const v = prompt("Name for resID " + b.dataset.rid + " (empty = delete):", b.dataset.name);
+  if (v === null) return;
+  await fetch("/api/prim-names", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({id: b.dataset.rid, name: v})});
+  location.reload();
+});
+async function poll() {
+  const j = await (await fetch("/api/prim-import")).json();
+  const box = document.getElementById("prim-job"), prog = document.getElementById("prim-prog");
+  if (j.running) {
+    prog.hidden = false;
+    prog.firstElementChild.style.width = (j.total ? 100 * j.done / j.total : 3) + "%";
+    box.innerHTML = `<span class="spinner"></span> Reading palettes: ${j.done}/${j.total || "?"} files`;
+    setTimeout(poll, 700);
+    window._wasRunning = true;
+  } else {
+    prog.hidden = true;
+    if (j.error) box.innerHTML = `<span class="num-del">⚠ ${j.error}</span>`;
+    else if (j.finished) box.innerHTML = `✓ ${j.finished}: ${j.found} primitives found, ${j.added} names added/updated<br><span class="faint">${j.path}</span>`;
+    if (window._wasRunning) location.reload();
+  }
+}
+poll();
+</script>
+{% endblock %}

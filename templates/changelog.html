@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% set tab = "changelog" %}
+{% block title %}CHANGELOG · {{ repo.name }}{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  const box = document.querySelector("[data-cat-picks]");
+  if (!box) return;
+  let saved = null;
+  try { saved = JSON.parse(localStorage.getItem("viver.clcats") || "null"); } catch (e) {}
+  const cbs = [...box.querySelectorAll("input")];
+  if (saved) cbs.forEach(cb => { cb.checked = saved.includes(cb.value); cb.parentElement.classList.toggle("on", cb.checked); });
+  cbs.forEach(cb => cb.addEventListener("change", () => {
+    cb.parentElement.classList.toggle("on", cb.checked);
+    try { localStorage.setItem("viver.clcats", JSON.stringify(cbs.filter(c => c.checked).map(c => c.value))); } catch (e) {}
+  }));
+  box.closest("form").addEventListener("submit", e => { if (!cbs.some(c => c.checked)) { e.preventDefault(); alert("Select at least one category."); } });
+})();
+</script>
+{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="grid-2">
+<form method="post" class="card">
+  <div class="card-head"><b>Generate CHANGELOG.md</b></div>
+  <div class="card-body">
+    <p class="muted" style="margin-top:0">Exports the changes between two versions as Markdown. For every VI whose content changed, the previous and new block diagram are drawn together in one SVG image; changed items are marked with numbered, colored boxes. Being vector graphics, the images stay sharp when zoomed.</p>
+    <div class="row">
+      <div><label class="lbl">Old (base)</label>
+        <select name="base">
+          <option value="">— none (from the first version)</option>
+          {% for t in tags %}<option value="{{ t.commit_id }}" {{ 'selected' if base == t.commit_id }}>🏷 {{ t.name }}</option>{% endfor %}
+          {% for c in log %}<option value="{{ c.id }}" {{ 'selected' if (base and base == c.id) or (not base and loop.index == 2) }}>{{ c.short }} — {{ c.title[:55] }} ({{ c.time }})</option>{% endfor %}
+        </select></div>
+      <div style="padding-top:22px">→</div>
+      <div><label class="lbl">New</label>
+        <select name="head">
+          {% for c in log %}<option value="{{ c.id }}" {{ 'selected' if (head and head == c.id) or (not head and loop.first) }}>{{ c.short }} — {{ c.title[:55] }} ({{ c.time }})</option>{% endfor %}
+          {% for t in tags %}<option value="{{ t.commit_id }}">🏷 {{ t.name }}</option>{% endfor %}
+        </select></div>
+    </div>
+    <div class="field" style="margin-top:14px">
+      <label class="lbl">Scope — which changes should be included?</label>
+      <div class="cat-picks" data-cat-picks>
+      {% for k, t in categories %}
+        <label class="chip {{ 'on' if k in default_cats }}"><input type="checkbox" name="cat" value="{{ k }}" {{ 'checked' if k in default_cats }}> {{ t }}</label>
+      {% endfor %}
+      </div>
+      <div class="hint">VIs are removed from the sections of the categories you did not select; a VI whose changes are only in those categories goes to the "Out of scope" list. If "Block diagram layout" is selected, moved items are marked with 🟦 in the images. Your selection is remembered in this browser.</div>
+    </div>
+    <button class="btn primary" {{ 'disabled' if not log }}>Generate</button>
+  </div>
+</form>
+<aside class="card">
+  <div class="card-head"><b>Previous outputs</b></div>
+  {% if not previous %}<div class="card-body small muted">None generated yet.</div>{% endif %}
+  {% for m in previous %}
+  <div class="check-row" style="padding:9px 14px">
+    <a href="{{ url_for('changelog_view', name=repo.name, jid=m.id) }}" class="path" style="font-family:inherit">
+      <code>{{ m.base_short or "initial" }}</code> → <code>{{ m.head_short }}</code> {{ m.head_title[:30] }}</a>
+    <span class="faint small">{{ m.created }}</span>
+    {% if m.error %}<span class="num-del small">error</span>{% endif %}
+  </div>
+  {% endfor %}
+</aside>
+</div>
+{% endblock %}

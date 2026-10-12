@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% set tab = "compare" %}
+{% block title %}Compare · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-head"><b>Compare two versions</b></div>
+  <form method="get" class="card-body">
+    <p class="muted" style="margin-top:0">Choose any two commits, branches or version tags. You will see all changed files and the block diagram differences of the VIs.</p>
+    <div class="row">
+      <div><label class="lbl">Old (base)</label>
+        <select name="base">
+          {% for t in tags %}<option value="{{ t.name }}">🏷 {{ t.name }}</option>{% endfor %}
+          {% for b in branches %}<option value="{{ b.name }}">⑂ {{ b.name }}</option>{% endfor %}
+          {% for c in log %}<option value="{{ c.id }}" {{ 'selected' if loop.index == 2 }}>{{ c.short }} — {{ c.title[:60] }} ({{ c.time }})</option>{% endfor %}
+        </select></div>
+      <div style="padding-top:22px">→</div>
+      <div><label class="lbl">New</label>
+        <select name="head">
+          {% for c in log %}<option value="{{ c.id }}" {{ 'selected' if loop.first }}>{{ c.short }} — {{ c.title[:60] }} ({{ c.time }})</option>{% endfor %}
+          {% for b in branches %}<option value="{{ b.name }}">⑂ {{ b.name }}</option>{% endfor %}
+          {% for t in tags %}<option value="{{ t.name }}">🏷 {{ t.name }}</option>{% endfor %}
+        </select></div>
+      <div style="padding-top:22px"><button class="btn primary">Compare</button></div>
+    </div>
+  </form>
+</div>
+{% endblock %}

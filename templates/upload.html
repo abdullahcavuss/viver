@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% set tab = "upload" %}
+{% block title %}Upload · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="grid-2">
+<form id="upload-form" class="card" action="{{ url_for('repo_upload', name=repo.name) }}" method="post" enctype="multipart/form-data">
+  <div class="card-head"><b>Commit the project from the browser</b></div>
+  <div class="card-body">
+    <div class="row field">
+      <label><input type="radio" name="mode" value="folder" checked> Folder</label>
+      <label><input type="radio" name="mode" value="zip"> ZIP file</label>
+    </div>
+    <div class="mode-folder field">
+      <div class="drop">
+        <div style="font-size:28px">📁</div>
+        <b>Drag the LabVIEW project folder here</b><br>or click to choose it
+        <input type="file" webkitdirectory directory multiple hidden>
+      </div>
+      <div class="hint pick-info"></div>
+    </div>
+    <div class="mode-zip field" hidden>
+      <input type="file" name="zipfile" accept=".zip">
+    </div>
+    <div class="field"><label class="lbl">Commit message</label><input type="text" name="message" required placeholder="e.g. v1.2 — test sequence updated"></div>
+    <div class="field"><textarea name="description" placeholder="Description (optional)"></textarea></div>
+    <div class="row field">
+      <label class="lbl" style="margin:0">Branch</label>
+      <select name="branch">{% for b in branches %}<option {{ 'selected' if b.name == repo.current_branch }}>{{ b.name }}</option>{% endfor %}</select>
+      <label class="small"><input type="checkbox" name="merge" value="1"> Only update the uploaded files (keep the others)</label>
+    </div>
+    <input type="hidden" name="author" value="">
+    <button class="btn green" type="submit">Upload and commit</button>
+    <div class="progress"><div></div></div>
+  </div>
+</form>
+<aside class="card"><div class="card-body small muted">
+  <b style="color:var(--text)">Tip</b>
+  <p>If VIVER runs on this computer, linking the project folder in <a href="{{ url_for('settings', name=repo.name) }}">Settings</a> is more practical: changed files are found automatically and no upload is needed.</p>
+  <p>These files are ignored when uploading: <code>.lvlps</code>, <code>.aliases</code>, <code>builds/</code> and the rules in Settings.</p>
+  <p>If “Only update the uploaded files” is not selected, the uploaded folder is taken as the whole project; files not in it are treated as deleted in this commit.</p>
+</div></aside>
+</div>
+{% endblock %}

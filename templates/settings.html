@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% set tab = "settings" %}
+{% block title %}Settings · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="grid-2">
+<form method="post" class="card">
+  <div class="card-head"><b>Repository settings</b></div>
+  <div class="card-body">
+    <div class="field"><label class="lbl">Description</label><input type="text" name="description" value="{{ repo.description }}"></div>
+    <div class="field"><label class="lbl">Project folder (working copy)</label>
+      <input type="text" name="work_dir" value="{{ repo.work_dir }}" placeholder="C:\LabVIEW\MyProjects\Line1">
+      <div class="hint">The LabVIEW project folder on the computer running VIVER. Changes are read from here; restores are written here.</div></div>
+    <div class="field"><label class="lbl">Files to ignore (one rule per line)</label>
+      <textarea name="ignore_patterns" rows="6" placeholder="*.log&#10;data/&#10;Test Results/*.tdms">{{ repo.ignore_patterns }}</textarea>
+      <div class="hint">Ignored by default: {% for p in default_ignore %}<code>{{ p }}</code> {% endfor %}<br>You can also put a <code>.viverignore</code> file in the project folder.</div></div>
+    <div class="safety">
+      <div class="lbl" style="margin:14px 0 8px;font-size:14px;color:var(--text)">Safety &amp; backups</div>
+      <label class="opt"><input type="checkbox" name="safe_read" value="1" {{ 'checked' if repo.safe_read }}>
+        <span><b>Read from a snapshot copy</b> <span class="pill" style="font-size:11px">recommended</span><br>
+        <span class="hint">Each new or changed file is first copied to a private snapshot; VIVER checks that the file did not change while it was being copied (size and time stamp before = after) and then reads, compares and stores <i>only the copy</i>. If LabVIEW is saving a file at that moment, it is skipped and you are told, so a half-written file can never end up in a backup. Project files are only ever opened read-only.</span></span></label>
+      <label class="opt"><input type="checkbox" name="protect_workdir" value="1" {{ 'checked' if repo.protect_workdir }}>
+        <span><b>Never write to the project folder</b><br>
+        <span class="hint">“Restore to project folder”, “Discard all changes”, saving a CHANGELOG into the project and branch switching will not modify your files. Old versions are restored into a separate folder instead (“Restore to another folder” on a commit page).</span></span></label>
+      <div class="field" style="margin:6px 0 12px 26px"><label class="lbl small">Default folder for “Restore to another folder”</label>
+        <input type="text" name="export_dir" value="{{ repo.export_dir }}" placeholder="next to the project folder: …\{{ repo.name }}-versions">
+        <div class="hint">Each restore goes into its own subfolder (<code>{{ repo.name }}-&lt;commit&gt;</code>). Must be outside the project folder.</div></div>
+      <label class="opt"><input type="checkbox" name="zip_on_commit" value="1" {{ 'checked' if repo.zip_on_commit }}>
+        <span><b>Create a ZIP of the whole project on every commit</b><br>
+        <span class="hint">An extra, self-contained backup next to VIVER's own store: a normal ZIP you can open without VIVER. It is built from the verified backup copies (not from the project folder), tested after writing, and named <code>{{ repo.name }}-&lt;date&gt;-&lt;commit&gt;.zip</code>.</span></span></label>
+      <div class="row" style="margin:6px 0 4px 26px;gap:10px;align-items:flex-end;flex-wrap:nowrap">
+        <div class="field grow" style="margin:0"><label class="lbl small">ZIP folder</label>
+          <input type="text" name="zip_dir" value="{{ repo.zip_dir }}" placeholder="{{ default_zip_dir }}"></div>
+        <div class="field" style="margin:0;width:160px;flex:none"><label class="lbl small">Keep newest (0 = all)</label>
+          <input type="number" min="0" name="zip_keep" value="{{ repo.zip_keep or 0 }}"></div>
+      </div>
+      <div class="hint" style="margin:0 0 14px 26px">Tip: point the ZIP folder to another disk or a network share so a disk failure cannot take both copies.</div>
+    </div>
+    <button class="btn primary">Save</button>
+  </div>
+</form>
+<aside>
+  <div class="card">
+    <div class="card-head"><b>Commit from the command line</b></div>
+    <div class="card-body small">
+      <p class="muted" style="margin-top:0">For automatic commits from post-build scripts or from LabVIEW (System Exec.vi):</p>
+      <pre class="code" style="background:var(--panel-2);padding:10px;border-radius:6px;white-space:pre-wrap">python tools/viver_commit.py {{ repo.name }} -m "Before build 1.4"</pre>
+    </div>
+  </div>
+  <form method="post" action="{{ url_for('verify_backups', name=repo.name) }}" class="card">
+    <div class="card-head"><b>Verify backups</b></div>
+    <div class="card-body small">
+      <p class="muted" style="margin-top:0">Reads every stored file version of this repository and checks it against its SHA-256 checksum, so you know the history can really be restored. Read-only; may take a while for large projects.</p>
+      <button class="btn">🛡 Verify now</button>
+    </div>
+  </form>
+  <form method="post" class="card" data-confirm="The repository record will be deleted. Are you sure?">
+    <div class="card-head"><b style="color:var(--del)">Danger zone</b></div>
+    <div class="card-body">
+      <input type="hidden" name="action" value="delete">
+      <div class="field"><label class="lbl small">Type the repository name to delete it: <code>{{ repo.name }}</code></label><input type="text" name="confirm"></div>
+      <button class="btn danger">Delete repository</button>
+      <div class="hint">Your project folder is not touched.</div>
+    </div>
+  </form>
+</aside>
+</div>
+{% endblock %}

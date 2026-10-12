@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% set tab = "changelog" %}
+{% block title %}CHANGELOG {{ meta.head_short }} · {{ repo.name }}{% endblock %}
+{% block repohead %}{% include "_repohead.html" %}{% endblock %}
+{% block content %}
+<div class="row" style="margin-bottom:14px">
+  <h2 style="margin:0" class="grow">CHANGELOG <code>{{ meta.base_short or "initial" }}</code> → <code>{{ meta.head_short }}</code></h2>
+  {% if body %}
+  <a class="btn primary" href="{{ url_for('changelog_zip', name=repo.name, jid=meta.id) }}">⬇ ZIP (CHANGELOG.md + images)</a>
+  <a class="btn" href="{{ url_for('changelog_md', name=repo.name, jid=meta.id) }}">⬇ .md only</a>
+  {% if repo.work_dir and not repo.protect_workdir %}
+  <form method="post" action="{{ url_for('changelog_save', name=repo.name, jid=meta.id) }}" data-confirm="CHANGELOG.md and the changelog-images folder will be written to the project folder (overwriting if present). Continue?">
+    <button class="btn">Save to project folder</button></form>
+  {% endif %}
+  {% endif %}
+  <a class="btn" href="{{ url_for('changelog_page', name=repo.name) }}">Generate new</a>
+</div>
+{% if meta.result and meta.result.cats %}<p class="small muted" style="margin-top:-6px">Scope: {{ meta.result.cats|join(", ") }}{% if meta.result.excluded %} · {{ meta.result.excluded }} VI(s) out of scope{% endif %}</p>{% endif %}
+{% if meta.error %}<div class="flash error">Could not generate: {{ meta.error }}</div>{% endif %}
+{% if meta.running %}
+<div class="card"><div class="card-body" id="cl-prog">
+  <div><span class="spinner"></span> <b>Preparing…</b> <span class="muted" id="cl-cur"></span></div>
+  <div class="progress"><div id="cl-bar"></div></div>
+  <p class="hint">The VIs are parsed and compared without opening LabVIEW, and images of the changed VIs are drawn. VIs opened before come from the cache.</p>
+</div></div>
+<script>
+(async function poll() {
+  const j = await (await fetch("{{ url_for('api_changelog', jid=meta.id) }}")).json();
+  if (!j.running) { location.reload(); return; }
+  document.getElementById("cl-bar").style.width = (j.total ? 100 * j.done / j.total : 4) + "%";
+  document.getElementById("cl-cur").textContent = j.total ? `${j.done}/${j.total} VI — ${j.current || ""}` : "";
+  setTimeout(poll, 800);
+})();
+</script>
+{% elif body %}
+<article class="card md-body"><div class="card-body">{{ body|safe }}</div></article>
+{% endif %}
+{% endblock %}

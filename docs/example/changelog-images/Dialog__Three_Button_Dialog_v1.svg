@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2474" height="3216" viewBox="0 0 2474 3216" font-family="Segoe UI, Arial, DejaVu Sans, Liberation Sans, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjNDcxZGYxZC1kMDhmLTRlMGItYTEyZC1mOWE2MTk4YTJhMmIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMzwl8WiPLt0GA9tsIGfRWQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozNjQ0NjhmYi05MDMxLTQ1ZTQtOTBlNS03YWIwNzRiZTA2N2NscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo0Lhx8EmOjq5oGa4zy02lNwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggkseYpmssllJe8uY3xY+HwRLSovg/WoNusspCeaRjkb6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaLbcg49XphyE9Jrve+6TW5IAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYINdheZ1kV/YbNdwmqYzYQH1p1+/NK4qxd41W/dhCkCJKZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmM0NzFkZjFkLWQwOGYtNGUwYi1hMTJkLWY5YTYxOThhMmEyYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE4ZjUyNzE5LWIwODYtNDBhOS04YjU5LThhY2M0NjY4ZTA3YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCSx5imayyWUl7y5jfFj4fBEtKi+D9ag26yykJ5pGORvqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggw5TCv7ioKNjABdYQg2qWERP/EF0sYcjWfLI70yXU0/KiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggJ/yHs1L+jdoiBj/r5/swk2mZWyJTrOYQOoORDyMBs5J0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJp+hh0Gwsp52gkxKhgN8etj1s95WGEqkn8PXSdqbc6z5G9ekt9XBM7RWAMNcAidxNRb9at1402prTJhMkIPfuU=</c2pa:manifest></metadata>
+<defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#f0f2f5" stroke-width="1"/></pattern></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g transform="translate(0,0)">
+<rect x="0" y="0" width="2474" height="36" rx="6" fill="#57606a"/>
+<text x="14" y="28" font-size="20" font-weight="bold" fill="#fff">Previous version (379e404) — Case Structure → 0, 9, Event Structure → Event 1</text>
+<g transform="translate(0,44)">
+<rect width="2474" height="1546" fill="url(#g)" stroke="#d0d7de" stroke-width="1"/>
+<svg width="2474" height="1546" overflow="hidden">
+<rect x="462" y="60" width="1654" height="1118" fill="rgb(143,148,155)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="474" y="72" width="1630" height="1094" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="596" y="102" width="1456" height="1044" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="608" y="114" width="1432" height="1020" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="644" y="154" width="1376" height="960" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="660" y="170" width="1344" height="928" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<polyline points="446,566 458.5,566 458.5,457 471,457" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2254,203 2302,203 2302,206 2350,206" fill="none" stroke="rgb(59,59,59)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2100,206 2126,206 2126,204 2152,204" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="447,238 478,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="392,241 404,241 404,238 397,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="471,457 605,457" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,1074 492.5,1074 492.5,266 507,266" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,1074 605,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="580,152 592.5,152 592.5,169 605,169" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,206 605,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,207 2100,206" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,1113 2084,1112" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,241 2071.5,241 2071.5,238 2100,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,1075 2100,1074" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,238 492.5,238 492.5,241 507,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,266 581,266 581,283 605,283" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,241 605,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,254 580.5,254 580.5,262 604,262" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,169 658,169" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,207 2043,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,1075 653,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,1075 2043,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,207 653,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,241 2043,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,241 653,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1468,421 1558,421" fill="none" stroke="rgb(59,59,59)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1668,422 1839.5,422 1839.5,207 2011,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,207 1160.5,207 1160.5,422 1668,422" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1846,283 1888.5,283 1888.5,227 1931,227" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,1075 2011,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1981,240 2011,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,241 1931,240" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="2350" y="190" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="2362.4" y="210.8" font-size="14" font-weight="bold" fill="rgb(59,59,59)">RING</text>
+<text x="2350" y="183.6" font-size="17" fill="rgb(28,33,40)">Which Button?</text>
+<rect x="2136" y="186" width="204" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="2182.4" y="208.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Bundle By Name</text>
+<rect x="300" y="352" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(85,85,85)" stroke-width="2"/>
+<text x="314.2" y="372.8" font-size="14" font-weight="bold" fill="rgb(85,85,85)">STRI</text>
+<text x="300" y="345.6" font-size="17" fill="rgb(28,33,40)">C-Message</text>
+<rect x="390" y="218" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="390" y="218" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="408.8" y="239.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Add</text>
+<text x="394.8" y="252.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State(s)</text>
+<text x="415" y="266" font-size="12" font-weight="bold" fill="rgb(28,33,40)">to</text>
+<text x="394.2" y="279.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue…</text>
+<rect x="500" y="234" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="500" y="234" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="513.1" y="255.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Parse</text>
+<text x="513.8" y="268.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State</text>
+<text x="504.2" y="282" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue__</text>
+<text x="506.5" y="295.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">jki_lib…</text>
+<rect x="1472" y="404" width="204" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="1518.4" y="426.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Bundle By Name</text>
+<rect x="830" y="384" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(85,85,85)" stroke-width="4"/>
+<text x="840.3" y="404.8" font-size="14" font-weight="bold" fill="rgb(85,85,85)">BOOL</text>
+<text x="799.6" y="377.6" font-size="17" fill="rgb(28,33,40)">Left Button</text>
+<rect x="1924" y="220" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="1924" y="220" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="1942.8" y="241.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Add</text>
+<text x="1928.8" y="254.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State(s)</text>
+<text x="1949" y="268" font-size="12" font-weight="bold" fill="rgb(28,33,40)">to</text>
+<text x="1928.2" y="281.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue…</text>
+<rect x="660" y="288" width="104" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="665.8" y="310.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">eventDataN…</text>
+<rect x="1710" y="264" width="136" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="1718" y="288.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Macro: Exit</text>
+<rect x="1296" y="402" width="172" height="38" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="1304" y="426.5" font-size="16" font-weight="bold" fill="rgb(51,51,51)">Left Button</text>
+<rect x="482" y="116" width="98" height="72" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="490" y="157.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">-1</text>
+<rect x="208" y="222" width="184" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="216" y="246.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Macro: Initialize</text>
+<rect x="60" y="350" width="386" height="432" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="68" y="571.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Data: Initialize\nInitialize Core Data\nUI…</text>
+<rect x="468" y="1190" width="940" height="296" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="472" y="1224.5" font-size="21" fill="rgb(28,33,40)">This is an example to show how someone can use the JKI State Machine. We show how</text>
+<text x="472" y="1248.6" font-size="21" fill="rgb(28,33,40)">you can refactor existing code. We have taken the 3 button dialog that ships with the</text>
+<text x="472" y="1272.8" font-size="21" fill="rgb(28,33,40)">base version of LabVIEW and upgraded it to use the JKI State Machine template.</text>
+<text x="472" y="1296.9" font-size="21" fill="rgb(28,33,40)">The original VI is located at: &lt;vi.lib&gt;\Utility\error.llb\Three Button Dialog CORE.vi</text>
+<text x="472" y="1321.1" font-size="21" fill="rgb(28,33,40)"></text>
+<text x="472" y="1345.2" font-size="21" fill="rgb(28,33,40)">For instructions on how to use the JKI State Machine, examples and video tutorials, visit:</text>
+<text x="472" y="1369.4" font-size="21" fill="rgb(28,33,40)">http://jkisoft.com/state-machine/</text>
+<text x="472" y="1393.5" font-size="21" fill="rgb(28,33,40)"></text>
+<text x="472" y="1417.7" font-size="21" fill="rgb(28,33,40)">JKI State Machineô Example Code</text>
+<text x="472" y="1441.8" font-size="21" fill="rgb(28,33,40)">http://jkisoft.com/state-machine/</text>
+<text x="472" y="1466" font-size="21" fill="rgb(28,33,40)">Copyright (C) 2005-2008, JKI &lt;info@jkisoft.com…</text>
+<rect x="232" y="1036" width="196" height="56" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="236" y="1059.2" font-size="21" fill="rgb(28,33,40)">copy this to</text>
+<text x="236" y="1083.3" font-size="21" fill="rgb(28,33,40)">create labels fo…</text>
+<rect x="190" y="66" width="270" height="108" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="194" y="91" font-size="21" fill="rgb(28,33,40)">This controls the loop</text>
+<text x="194" y="115.2" font-size="21" fill="rgb(28,33,40)">rate. -1 means wait</text>
+<text x="194" y="139.3" font-size="21" fill="rgb(28,33,40)">forever in Event</text>
+<text x="194" y="163.5" font-size="21" fill="rgb(28,33,40)">Structure</text>
+<rect x="288" y="1134" width="152" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="292" y="1158.2" font-size="21" fill="rgb(28,33,40)">System_Label</text>
+<rect x="1346" y="72" width="704" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="1350" y="96.2" font-size="21" fill="rgb(28,33,40)">Template Copyright © 2008 JKI - http://jkisoft.com/state-machine</text>
+<rect x="648" y="120" width="462" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="652" y="144.2" font-size="21" fill="rgb(28,33,40)">executes when the state queue is empty</text>
+<rect x="2084" y="194" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="194" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="2084" y="1062" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="1062" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="2084" y="226" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="226" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="448" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="478" y="1114" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="490.2" y="1137.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">i</text>
+<rect x="2068" y="1096" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="1"/>
+<polygon points="2088.4,1101.4 2094.6,1107.6 2094.6,1116.4 2088.4,1122.6 2079.6,1122.6 2073.4,1116.4 2073.4,1107.6 2079.6,1101.4" fill="rgb(209,36,47)"/>
+<rect x="1260.8" y="100" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1260.8" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1278.8,108 1268.8,115 1278.8,122" fill="rgb(51,51,51)"/>
+<rect x="1361.2" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1369.2,108 1379.2,115 1369.2,122" fill="rgb(51,51,51)"/>
+<text x="1303.9" y="121.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">0, 9</text>
+<rect x="596" y="250" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="598.8" y="268.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="596" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="274" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="1104" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="160" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="448" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="161.2" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1269.4,160 1259.4,167 1269.4,174" fill="rgb(51,51,51)"/>
+<rect x="1386.6" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1394.6,160 1404.6,167 1394.6,174" fill="rgb(51,51,51)"/>
+<text x="1291.6" y="173.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">Event 1</text>
+<rect x="644" y="204" width="28" height="24" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="1992" y="204" width="28" height="24" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="154" width="28" height="30" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="0" y="0" width="2474" height="1546" fill="#fff" fill-opacity="0.55"/>
+<rect x="1296" y="402" width="172" height="38" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="1304" y="426.5" font-size="16" font-weight="bold" fill="rgb(51,51,51)">Left Button</text>
+<rect x="1260.8" y="100" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1260.8" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1278.8,108 1268.8,115 1278.8,122" fill="rgb(51,51,51)"/>
+<rect x="1361.2" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1369.2,108 1379.2,115 1369.2,122" fill="rgb(51,51,51)"/>
+<text x="1303.9" y="121.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">0, 9</text>
+<rect x="1251.4" y="152" width="161.2" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1269.4,160 1259.4,167 1269.4,174" fill="rgb(51,51,51)"/>
+<rect x="1386.6" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1394.6,160 1404.6,167 1394.6,174" fill="rgb(51,51,51)"/>
+<text x="1291.6" y="173.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">Event 1</text>
+<rect x="1288" y="394" width="188" height="54" rx="8" fill="rgb(217,119,6)" fill-opacity="0.157" stroke="rgb(217,119,6)" stroke-width="4" stroke-opacity="1.0"/>
+<ellipse cx="1277.8" cy="383.8" rx="12" ry="12" fill="rgb(217,119,6)" stroke="rgb(255,255,255)" stroke-width="2"/>
+<text x="1277.8" y="389.2" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+</svg>
+</g></g>
+<g transform="translate(0,1626)">
+<rect x="0" y="0" width="2474" height="36" rx="6" fill="#1a7f37"/>
+<text x="14" y="28" font-size="20" font-weight="bold" fill="#fff">New version (fdbd562) — Case Structure → 0, 9, Event Structure → Event 1</text>
+<g transform="translate(0,44)">
+<rect width="2474" height="1546" fill="url(#g)" stroke="#d0d7de" stroke-width="1"/>
+<svg width="2474" height="1546" overflow="hidden">
+<rect x="462" y="60" width="1654" height="1118" fill="rgb(143,148,155)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="474" y="72" width="1630" height="1094" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="596" y="102" width="1456" height="1044" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="608" y="114" width="1432" height="1020" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<rect x="644" y="154" width="1376" height="960" fill="rgb(157,161,167)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="660" y="170" width="1344" height="928" fill="rgb(255,255,255)" stroke="rgb(125,130,136)" stroke-width="1"/>
+<polyline points="446,566 458.5,566 458.5,457 471,457" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2254,203 2302,203 2302,206 2350,206" fill="none" stroke="rgb(59,59,59)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2100,206 2126,206 2126,204 2152,204" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="447,238 478,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="392,241 404,241 404,238 397,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="471,457 605,457" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,1074 492.5,1074 492.5,266 507,266" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,1074 605,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="580,152 592.5,152 592.5,169 605,169" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,206 605,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,207 2100,206" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,1113 2084,1112" fill="none" stroke="rgb(0,138,46)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,241 2071.5,241 2071.5,238 2100,238" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2043,1075 2100,1074" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="478,238 492.5,238 492.5,241 507,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,266 581,266 581,283 605,283" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,241 605,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="557,254 580.5,254 580.5,262 604,262" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,169 658,169" fill="none" stroke="rgb(31,95,214)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,207 2043,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,1075 653,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,1075 2043,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,207 653,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="2011,241 2043,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="605,241 653,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1468,421 1558,421" fill="none" stroke="rgb(59,59,59)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1668,422 1839.5,422 1839.5,207 2011,207" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,207 1160.5,207 1160.5,422 1668,422" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1846,283 1888.5,283 1888.5,227 1931,227" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,1075 2011,1075" fill="none" stroke="rgb(139,90,43)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="1981,240 2011,241" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="653,241 1931,240" fill="none" stroke="rgb(224,64,176)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="2350" y="190" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="2362.4" y="210.8" font-size="14" font-weight="bold" fill="rgb(59,59,59)">RING</text>
+<text x="2350" y="183.6" font-size="17" fill="rgb(28,33,40)">Which Button?</text>
+<rect x="2136" y="186" width="204" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="2182.4" y="208.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Bundle By Name</text>
+<rect x="300" y="352" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(85,85,85)" stroke-width="2"/>
+<text x="314.2" y="372.8" font-size="14" font-weight="bold" fill="rgb(85,85,85)">STRI</text>
+<text x="300" y="345.6" font-size="17" fill="rgb(28,33,40)">C-Message</text>
+<rect x="390" y="218" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="390" y="218" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="408.8" y="239.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Add</text>
+<text x="394.8" y="252.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State(s)</text>
+<text x="415" y="266" font-size="12" font-weight="bold" fill="rgb(28,33,40)">to</text>
+<text x="394.2" y="279.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue…</text>
+<rect x="500" y="234" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="500" y="234" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="513.1" y="255.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Parse</text>
+<text x="513.8" y="268.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State</text>
+<text x="504.2" y="282" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue__</text>
+<text x="506.5" y="295.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">jki_lib…</text>
+<rect x="1472" y="404" width="204" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="1518.4" y="426.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">Bundle By Name</text>
+<rect x="830" y="384" width="64" height="32" fill="rgb(255,255,255)" stroke="rgb(85,85,85)" stroke-width="4"/>
+<text x="840.3" y="404.8" font-size="14" font-weight="bold" fill="rgb(85,85,85)">BOOL</text>
+<text x="799.6" y="377.6" font-size="17" fill="rgb(28,33,40)">Left Button</text>
+<rect x="1924" y="220" width="64" height="64" fill="rgb(255,254,245)" stroke="rgb(61,61,61)" stroke-width="1"/>
+<rect x="1924" y="220" width="64" height="10" fill="rgb(47,93,138)"/>
+<text x="1942.8" y="241.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Add</text>
+<text x="1928.8" y="254.7" font-size="12" font-weight="bold" fill="rgb(28,33,40)">State(s)</text>
+<text x="1949" y="268" font-size="12" font-weight="bold" fill="rgb(28,33,40)">to</text>
+<text x="1928.2" y="281.4" font-size="12" font-weight="bold" fill="rgb(28,33,40)">Queue…</text>
+<rect x="660" y="288" width="104" height="36" fill="rgb(244,245,247)" stroke="rgb(91,97,104)" stroke-width="1"/>
+<text x="665.8" y="310.4" font-size="12" font-weight="bold" fill="rgb(59,65,72)">eventDataN…</text>
+<rect x="1710" y="264" width="136" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="1718" y="288.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Macro: Exit</text>
+<rect x="1296" y="402" width="172" height="38" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="1304" y="426.5" font-size="16" font-weight="bold" fill="rgb(51,51,51)">Window Close</text>
+<rect x="482" y="116" width="98" height="72" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="2"/>
+<text x="490" y="157.5" font-size="16" font-weight="bold" fill="rgb(31,95,214)">-1</text>
+<rect x="208" y="222" width="184" height="38" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="216" y="246.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Macro: Initialize</text>
+<rect x="60" y="350" width="386" height="432" fill="rgb(255,255,255)" stroke="rgb(224,64,176)" stroke-width="2"/>
+<text x="68" y="571.5" font-size="16" font-weight="bold" fill="rgb(224,64,176)">Data: Initialize\nInitialize Core Data\nUI…</text>
+<rect x="468" y="1190" width="940" height="296" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="472" y="1224.5" font-size="21" fill="rgb(28,33,40)">This is an example to show how someone can use the JKI State Machine. We show how</text>
+<text x="472" y="1248.6" font-size="21" fill="rgb(28,33,40)">you can refactor existing code. We have taken the 3 button dialog that ships with the</text>
+<text x="472" y="1272.8" font-size="21" fill="rgb(28,33,40)">base version of LabVIEW and upgraded it to use the JKI State Machine template.</text>
+<text x="472" y="1296.9" font-size="21" fill="rgb(28,33,40)">The original VI is located at: &lt;vi.lib&gt;\Utility\error.llb\Three Button Dialog CORE.vi</text>
+<text x="472" y="1321.1" font-size="21" fill="rgb(28,33,40)"></text>
+<text x="472" y="1345.2" font-size="21" fill="rgb(28,33,40)">For instructions on how to use the JKI State Machine, examples and video tutorials, visit:</text>
+<text x="472" y="1369.4" font-size="21" fill="rgb(28,33,40)">http://jkisoft.com/state-machine/</text>
+<text x="472" y="1393.5" font-size="21" fill="rgb(28,33,40)"></text>
+<text x="472" y="1417.7" font-size="21" fill="rgb(28,33,40)">JKI State Machineô Example Code</text>
+<text x="472" y="1441.8" font-size="21" fill="rgb(28,33,40)">http://jkisoft.com/state-machine/</text>
+<text x="472" y="1466" font-size="21" fill="rgb(28,33,40)">Copyright (C) 2005-2008, JKI &lt;info@jkisoft.com…</text>
+<rect x="232" y="1036" width="196" height="56" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="236" y="1059.2" font-size="21" fill="rgb(28,33,40)">copy this to</text>
+<text x="236" y="1083.3" font-size="21" fill="rgb(28,33,40)">create labels fo…</text>
+<rect x="190" y="66" width="270" height="108" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="194" y="91" font-size="21" fill="rgb(28,33,40)">This controls the loop</text>
+<text x="194" y="115.2" font-size="21" fill="rgb(28,33,40)">rate. -1 means wait</text>
+<text x="194" y="139.3" font-size="21" fill="rgb(28,33,40)">forever in Event</text>
+<text x="194" y="163.5" font-size="21" fill="rgb(28,33,40)">Structure</text>
+<rect x="288" y="1134" width="152" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="292" y="1158.2" font-size="21" fill="rgb(28,33,40)">System_Label</text>
+<rect x="1346" y="72" width="704" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="1350" y="96.2" font-size="21" fill="rgb(28,33,40)">Template Copyright © 2008 JKI - http://jkisoft.com/state-machine</text>
+<rect x="648" y="120" width="462" height="34" fill="rgb(255,255,215)" stroke="rgb(227,221,155)" stroke-width="1"/>
+<text x="652" y="144.2" font-size="21" fill="rgb(28,33,40)">executes when the state queue is empty</text>
+<rect x="2084" y="194" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="194" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="2084" y="1062" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="1062" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="2084" y="226" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="226" width="32" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="2"/>
+<rect x="462" y="448" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="478" y="1114" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(31,95,214)" stroke-width="1"/>
+<text x="490.2" y="1137.6" font-size="22" font-weight="bold" fill="rgb(31,95,214)">i</text>
+<rect x="2068" y="1096" width="32" height="32" fill="rgb(255,255,255)" stroke="rgb(0,138,46)" stroke-width="1"/>
+<polygon points="2088.4,1101.4 2094.6,1107.6 2094.6,1116.4 2088.4,1122.6 2079.6,1122.6 2073.4,1116.4 2073.4,1107.6 2079.6,1101.4" fill="rgb(209,36,47)"/>
+<rect x="1260.8" y="100" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1260.8" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1278.8,108 1268.8,115 1278.8,122" fill="rgb(51,51,51)"/>
+<rect x="1361.2" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1369.2,108 1379.2,115 1369.2,122" fill="rgb(51,51,51)"/>
+<text x="1303.9" y="121.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">0, 9</text>
+<rect x="596" y="250" width="16" height="24" fill="rgb(255,255,255)" stroke="rgb(90,90,90)" stroke-width="1"/>
+<text x="598.8" y="268.2" font-size="18" font-weight="bold" fill="rgb(60,60,60)">?</text>
+<rect x="596" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="274" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="1104" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2034" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="160" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="596" y="448" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="161.2" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1269.4,160 1259.4,167 1269.4,174" fill="rgb(51,51,51)"/>
+<rect x="1386.6" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1394.6,160 1404.6,167 1394.6,174" fill="rgb(51,51,51)"/>
+<text x="1291.6" y="173.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">Event 1</text>
+<rect x="644" y="204" width="28" height="24" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="1992" y="204" width="28" height="24" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="154" width="28" height="30" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="232" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="644" y="1066" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="2002" y="198" width="18" height="18" fill="rgb(110,110,110)" stroke="rgb(80,80,80)" stroke-width="1"/>
+<rect x="0" y="0" width="2474" height="1546" fill="#fff" fill-opacity="0.55"/>
+<rect x="1296" y="402" width="172" height="38" fill="rgb(255,255,255)" stroke="rgb(59,59,59)" stroke-width="2"/>
+<text x="1304" y="426.5" font-size="16" font-weight="bold" fill="rgb(51,51,51)">Window Close</text>
+<rect x="1260.8" y="100" width="126.4" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1260.8" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1278.8,108 1268.8,115 1278.8,122" fill="rgb(51,51,51)"/>
+<rect x="1361.2" y="100" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1369.2,108 1379.2,115 1369.2,122" fill="rgb(51,51,51)"/>
+<text x="1303.9" y="121.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">0, 9</text>
+<rect x="1251.4" y="152" width="161.2" height="30" fill="rgb(245,246,247)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<rect x="1251.4" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1269.4,160 1259.4,167 1269.4,174" fill="rgb(51,51,51)"/>
+<rect x="1386.6" y="152" width="26" height="30" fill="rgb(221,224,228)" stroke="rgb(107,112,118)" stroke-width="1"/>
+<polygon points="1394.6,160 1404.6,167 1394.6,174" fill="rgb(51,51,51)"/>
+<text x="1291.6" y="173.6" font-size="19" font-weight="bold" fill="rgb(180,83,9)">Event 1</text>
+<rect x="1288" y="394" width="188" height="54" rx="8" fill="rgb(217,119,6)" fill-opacity="0.157" stroke="rgb(217,119,6)" stroke-width="4" stroke-opacity="1.0"/>
+<ellipse cx="1277.8" cy="383.8" rx="12" ry="12" fill="rgb(217,119,6)" stroke="rgb(255,255,255)" stroke-width="2"/>
+<text x="1277.8" y="389.2" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+</svg>
+</g></g>
+</svg>
